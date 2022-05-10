@@ -8,7 +8,7 @@ const trait1 = function (req, res, query) {
 
     // AFFICHAGE DE LA PAGE D'ACCUEIL
 
-    page = fs.readFileSync('pageJeu.html', 'utf-8');
+    page = fs.readFileSync("jeuIndex.html", 'utf-8');
 
     page = nunjucks.renderString(page);
 
