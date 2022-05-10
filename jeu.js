@@ -120,7 +120,7 @@ const textNodes = [
 	},
 	{
 		id: 3,
-        text:"Vous vous sentez coupable."
+        text:"Vous vous sentez coupable.",
         options: [
             {
                 text:"Retouner l'aider",
@@ -130,6 +130,7 @@ const textNodes = [
                 text:"Rentrer à la maison",
 				nextText:0
                
+	}
         ]
 	},
 	{
@@ -162,7 +163,7 @@ const textNodes = [
             },
             {
                 text:"Quittez le jeu",
-                nextText:?
+                nextText:0
             },
         ]
 	},
@@ -171,12 +172,12 @@ const textNodes = [
         text:"La grand-mère vous donne un coup de canne et vous lance un diamant sur la tête. Vous êtes maintenant riche!",
         options: [
             {
-                text:"Recommencer la journée',
+                text:"Recommencer la journée",
                 nextText:0
             },
             {
                 text:"Quittez",
-                nextText:?
+                nextText:0
             },    
 		]
 	}
