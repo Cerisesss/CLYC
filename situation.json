@@ -1,0 +1,77 @@
+{
+		"id" : "1",
+		"text":"untecfeyfvdh",
+		"choix":[
+					{
+						"text":"caine de caractere",
+						"choix suivant":"2"
+
+					}		
+				]
+},
+
+{
+        "id" : "2",
+        "text":"untecfeyfvdh",
+        "choix":[
+           			 {
+                		"text":"caine de caractere",
+                		"choix suivant":"3"
+
+            		}
+             	]
+}, 
+{
+        "id" : "3",
+        "text":"untecfeyfvdh",
+        "choix":[
+                     {
+                        "text":"caine de caractere",
+                        "choix suivant":"4"
+
+                    }
+                ]
+},
+{
+        "id" : "4",
+        "text":"untecfeyfvdh",
+        "choix":[
+                     {
+                        "text":"caine de caractere",
+                        "choix suivant":"5"
+
+                    }
+                ]
+},
+
+{
+        "id" : "5",
+        "text":"untecfeyfvdh",
+        "choix":[
+                     {
+                        "text":"caine de caractere",
+                        "choix suivant":"6"
+
+                    }
+                ]
+},
+
+{
+        "id" : "6",
+        "text":"untecfeyfvdh",
+        "choix":[
+                     {
+                        "text":"caine de caractere",
+                        "choix suivant":"7"
+
+                    }
+                ]
+},
+
+
+
+
+
+
+
+
