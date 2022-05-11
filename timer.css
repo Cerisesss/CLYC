@@ -1,0 +1,13 @@
+body{
+	background: #f8d638;
+	font-size: 25px;
+}
+#js_timer{
+	text-align: center;
+}
+#timer{
+	background: #fff;
+	color: #000;
+	width: 80px;
+	margin: 50px auto;
+}
