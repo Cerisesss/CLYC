@@ -53,6 +53,7 @@ const trait = function (req, res, query) {
 		marqueurs = {};
 		marqueurs.erreur = "<strong>ERREUR</strong> : ce compte existe déjà";
 		marqueurs.pseudo = query.pseudo;
+		// ça sert à compiler Html et Js 
 		page = nunjucks.renderString(page, marqueurs);
 
 	} else {
