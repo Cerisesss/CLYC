@@ -13,12 +13,12 @@ const req_commencer = require("./req_commencer.js");
 const req_afficher_formulaire_inscription = require("./req_afficher_formulaire_inscription.js");
 const req_inscrire = require("./req_inscrire.js");
 const req_identifier = require("./req_identifier.js");
-
+const req_revenir = require("./req_revenir.js");
 const req_statique = require("./req_statique.js");
 const req_erreur = require("./req_erreur.js");
-
+const req_jouer = require("./req_jouer.js");
+const req_afficher_statistiques = require("./req_afficher_statistiques.js");
 // FONCTION DE CALLBACK APPELLEE POUR CHAQUE REQUETE
-
 const traite_requete = function (req, res) {
 
 	let requete;
@@ -47,6 +47,17 @@ const traite_requete = function (req, res) {
 			case '/req_identifier':
 				req_identifier(req, res, query);
 				break;
+			case '/req_jouer':
+                req_jouer(req, res, query);
+                break;
+			case '/req_afficher_statistiques':
+                req_afficher_statistiques(req, res, query);
+                break; 
+			case '/req_revenir':
+                req_revenir(req, res, query);
+                break;
+
+
 			default:
 				req_statique(req, res, query);
 				break;
