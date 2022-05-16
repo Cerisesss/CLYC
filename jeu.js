@@ -130,7 +130,7 @@ const textNodes = [
                 text:"Rentrer à la maison",
 				nextText:0
                
-	}
+			},
         ]
 	},
 	{

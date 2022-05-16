@@ -3,12 +3,12 @@
 	<head>
 		<title>Accueil</title>
 		<meta charset="utf-8">
+		 <link rel="stylesheet" type="text/css" href="background_accueil.css">
 	</head>
 	<body>
-		<h2>Mon PI</h2>
+		<h2>Mon compte CLYC</h2>
 
 		{{ erreur }}
-
 		<form action="/req_identifier" method="GET">
 			<input type="text" name="pseudo" value="{{ pseudo }}">
 			<br/>
@@ -16,7 +16,7 @@
 			<br/>
 			<input type="submit" name="action" value="Se connecter">
 		</form>
-
+		
 		<a href="/req_afficher_formulaire_inscription"><button>Créer compte</button></a>
 	</body>
 </html>
