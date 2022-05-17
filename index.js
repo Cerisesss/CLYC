@@ -17,6 +17,7 @@ const req_revenir = require("./req_revenir.js");
 const req_statique = require("./req_statique.js");
 const req_erreur = require("./req_erreur.js");
 const req_jouer = require("./req_jouer.js");
+const req_ecouler = require("./req_ecouler.js");
 const req_afficher_statistiques = require("./req_afficher_statistiques.js");
 // FONCTION DE CALLBACK APPELLEE POUR CHAQUE REQUETE
 const traite_requete = function (req, res) {
@@ -47,6 +48,10 @@ const traite_requete = function (req, res) {
 			case '/req_identifier':
 				req_identifier(req, res, query);
 				break;
+			case '/req_ecouler':
+                req_ecouler(req, res, query);
+                break;
+
 			case '/req_jouer':
                 req_jouer(req, res, query);
                 break;
