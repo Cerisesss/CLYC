@@ -1,72 +1,119 @@
+
+[
 {
-		"id" : "1",
-		"text":"untecfeyfvdh",
+		"id": "0",
+		"text":"Vous commencez votre journée.",
+
 		"choix":[
 					{
-						"text":"caine de caractere",
-						"choix suivant":"2"
-
-					}		
+						"text":"Se promener",
+						"choix suivant":"1"
+					},		
+					{
+                        "text":"Rester à la maison",
+                        "choix suivant":"0"
+                    }
 				]
 },
-
 {
-        "id" : "2",
-        "text":"untecfeyfvdh",
+		"id" : "1",
+		"text":"John voit une grand-mère qui a besoin d'aide dans la rue",
+		"choix":[
+					{
+						"text":"L'aider",
+						"choix suivant":"2"
+					},
+					{
+                		"text":"Rien faire",
+                		"nextText":3
+            		},
+            		{
+                		"text":"L'insulter",
+                		"nextText":4
+            		}
+				]
+},
+{
+        "id": "2",
+        "text":"La grand-mère vous remercie et vous donne 1M d'euros.",
         "choix":[
            			 {
-                		"text":"caine de caractere",
-                		"choix suivant":"3"
-
-            		}
+                		"text":"Accepter",
+                		"choix suivant":"5"
+            		 },
+					  {
+                        "text":"Refuser",
+                        "choix suivant":"6"
+                    },
+					{
+                        "text":"Fuir",
+                        "choix suivant":"7"
+                    }
              	]
 }, 
 {
         "id" : "3",
-        "text":"untecfeyfvdh",
+        "text":"Vous vous sentez coupable.",
         "choix":[
                      {
-                        "text":"caine de caractere",
-                        "choix suivant":"4"
-
-                    }
+                        "text":"Retourner l'aider",
+                        "choix suivant":"2"
+                     },
+					 {
+                        "text":"Rentrer à la maison",
+                        "choix suivant":"0"
+                     }
                 ]
 },
 {
         "id" : "4",
-        "text":"untecfeyfvdh",
+        "text":"La grand-mère est furieuse! Les yakuza vous attaquent.",
         "choix":[
                      {
-                        "text":"caine de caractere",
-                        "choix suivant":"5"
-
-                    }
+                        "text":"Vous rentrez chez vous en chaise roulante.",
+                        "choix suivant":"0"
+                     }
                 ]
 },
-
 {
         "id" : "5",
-        "text":"untecfeyfvdh",
+        "text":"C'était un rêve, vous vous réveillez en chaise roulante! (mdrr)",
         "choix":[
                      {
-                        "text":"caine de caractere",
-                        "choix suivant":"6"
-
+                        "text":"Commencer la journée.",
+                        "choix suivant":"0"
                     }
                 ]
 },
-
 {
         "id" : "6",
-        "text":"untecfeyfvdh",
+        "text":"La grand-mère est impressionnnée. Elle vous offre un manoir",
         "choix":[
                      {
-                        "text":"caine de caractere",
-                        "choix suivant":"7"
-
-                    }
+                        "text":"Recommencer la journée",
+                        "choix suivant":"0"
+                     },
+					 {
+                        "text":"Quittez le jeu",
+                        "choix suivant":"0"
+                     }
                 ]
 },
+{
+       "id": "7",
+        "text":"La grand-mère vous donne un coup de canne et vous lance un diamant sur la tête. Vous êtes maintenant riche!",
+        "choix": [
+            {
+                "text":"Recommencer la journée",
+                "nextText":0
+            },
+            {
+                "text":"Quittez",
+                "nextText":0
+            }
+        ]
+}
+]
 
 
 
