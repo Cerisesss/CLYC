@@ -3,38 +3,38 @@
   font-family: Gotham Rounded;
 }
 
-body {
+  body {
   padding: 0;
   margin: 0;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: space-around;
+  align-items: end;
   width: 100vw;
   height: 100vh;
   background-color: #333;
 }
 
 .container {
-  width: 800px;
-  max-width: 80%;
+  width: 1900px;
+  max-width: 300%;
   background-color: white;
-  padding: 10px;
-  border-radius: 5px;
-  box-shadow: 0 0 10px 2px;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 30px 3px;
 }
 
 .btn-grid {
   display: grid;
-  grid-template-columns: repeat(2, auto);
-  gap: 10px;
+  grid-template-columns: repeat(3, auto);
+  gap: 35px;
   margin-top: 20px;
 }
 
 .btn {
-  background-color: hsl(200, 100%, 50%);
-  border: 1px solid hsl(200, 100%, 30%);
+  background-color: hsl(3, 50%, 50%);
+  border: 2px solid hsl(200, 50%, 30%);
   border-radius: 5px;
-  padding: 5px 10px;
+  padding: 5px 5px;
   color: white;
   outline: none;
 }
@@ -42,3 +42,4 @@ body {
 .btn:hover {
   border-color: black;
 }
+
