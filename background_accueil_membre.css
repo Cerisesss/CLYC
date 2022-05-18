@@ -4,8 +4,18 @@ html{
 }
 
 body{
+	margin : auto;
     margin-top: 10%;
-    line-height: 20px;
+    line-height: 25px;
     text-align: center;
+    width: 1200px;
+    padding: 2em;
+    border: 2px solid white;
+    background : white;
+	opacity: 0.8;
+}
+
+h3{
+	text-align : left;
 }
 
