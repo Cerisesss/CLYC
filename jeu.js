@@ -41,9 +41,7 @@ function selectOption(option) {
   showTextNode(nextTextNodeId)
 }
 
-
 html += '<img src = "' + situation[i].id + '.png">',
-
 
 const textNodes = []
 
