@@ -1,49 +1,26 @@
 "use strict";
 
-const textElement = document.getElementById('text')
-const optionButtonsElement = document.getElementById('option-buttons')
+let monObjet = {};
 
-let state = {}
+monObjet.generer_texte = function (situation, id) {
+    let html;
 
-function startGame() {
-  state = {}
-  showTextNode(1)
-}
+	html = situation[id].text;
+	return html;
+};
 
-function showTextNode(textNodeIndex) {
-  const textNode = textNodes.find(textNode => textNode.id === textNodeIndex)
-  textElement.innerText = textNode.text
-  while (optionButtonsElement.firstChild) {
-    optionButtonsElement.removeChild(optionButtonsElement.firstChild)
-  }
+monObjet.generer_button = function (choix) {
+    let marqueur;
+	let j;
 
-  textNode.options.forEach(option => {
-    if (showOption(option)) {
-      const button = document.createElement('button')
-      button.innerText = option.text
-      button.classList.add('btn')
-      button.addEventListener('click', () => selectOption(option))
-      optionButtonsElement.appendChild(button)
+    marqueur = "";
+
+    for (let j = 0; j < choix.length; j++) {
+        marqueur += `<button name="texte" value="${j}">`+ choix[j].text +`</button>`;
+        marqueur += `<br>`;
     }
-  })
-}
+    return marqueur;
+};
 
-function showOption(option) {
-  return option.requiredState == null || option.requiredState(state)
-}
-
-function selectOption(option) {
-  const nextTextNodeId = option.nextText
-  if (nextTextNodeId <= 0) {
-    return startGame()
-  }
-  state = Object.assign(state, option.setState)
-  showTextNode(nextTextNodeId)
-}
-
-html += '<img src = "' + situation[i].id + '.png">',
-
-const textNodes = []
-
-startGame()
+module.exports = monObjet;
 

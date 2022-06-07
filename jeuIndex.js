@@ -1,36 +1,50 @@
-"use sttrict";
+"use strict";
 
-const fs = require("fs");
-const nj = require("nunjucks");
+const textElement = document.getElementById('text')
+const optionButtonsElement = document.getElementById('option-buttons')
 
-let contenu;
-let jeuIndex;
-let marqueurs;
-let page;
+let state = {}
 
-contenu = fs.readFileSync("situation.json", "utf-8");
-jeuIndex = JSON.parse(contenu);
+function startGame() {
+  state = {}
+  showTextNode(1)
+}
 
-//jeuIndex.splice(nb, 1);
+function showTextNode(textNodeIndex) {
+  const textNode = textNodes.find(textNode => textNode.id === textNodeIndex)
+  textElement.innerText = textNode.text
+  while (optionButtonsElement.firstChild) {
+    optionButtonsElement.removeChild(optionButtonsElement.firstChild)
+  }
 
-marqueurs = {};
-marqueurs.liste = texte(jeuIndex);
-page = fs.readFileSync("jeuIndex.html", "utf-8");
-page = nj.renderString(page, marqueurs);
+  textNode.options.forEach(option => {
+    if (showOption(option)) {
+      const button = document.createElement('button')
+      button.innerText = option.text
+      button.classList.add('btn')
+      button.addEventListener('click', () => selectOption(option))
+      optionButtonsElement.appendChild(button)
+    }
+  })
+}
 
-const texte = function (jeuIndex) {
-	let html;
+function showOption(option) {
+  return option.requiredState == null || option.requiredState(state)
+}
 
-	html = "";
+function selectOption(option) {
+  const nextTextNodeId = option.nextText
+  if (nextTextNodeId <= 0) {
+    return startGame()
+  }
+  state = Object.assign(state, option.setState)
+  showTextNode(nextTextNodeId)
+}
 
-	for (let i = 0; i < jeuIndex.length; i++) {
-		html += `<button name="nb" value="${i}">-</button>`;
-		html += jeuIndex[i];
-		html += `<br>`;
-	}
-	return html;
-};
+html += '<img src = "' + situation[i].id + '.png">',
 
-html += '<img src = "' + situation[i].id + '.png">';
+const textNodes = []
 
-module.exports = texte;
+startGame()
+
+

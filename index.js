@@ -4,11 +4,11 @@
 
 const http = require("http");
 const url = require("url");
+
 let mon_serveur;
 let port;
 
 // DECLARATION DES DIFFERENTS MODULES CORRESPONDANT A CHAQUE ACTION
-
 const req_commencer = require("./req_commencer.js");
 const req_afficher_formulaire_inscription = require("./req_afficher_formulaire_inscription.js");
 const req_inscrire = require("./req_inscrire.js");
@@ -17,7 +17,9 @@ const req_revenir = require("./req_revenir.js");
 const req_statique = require("./req_statique.js");
 const req_erreur = require("./req_erreur.js");
 const req_jouer = require("./req_jouer.js");
+const req_choisir = require('./req_choisir'); 
 const req_afficher_statistiques = require("./req_afficher_statistiques.js");
+
 // FONCTION DE CALLBACK APPELLEE POUR CHAQUE REQUETE
 const traite_requete = function (req, res) {
 
@@ -47,9 +49,11 @@ const traite_requete = function (req, res) {
 			case '/req_identifier':
 				req_identifier(req, res, query);
 				break;
-
 			case '/req_jouer':
                 req_jouer(req, res, query);
+                break;
+			case '/req_choisir':
+                req_choisir(req, res, query);
                 break;
 			case '/req_afficher_statistiques':
                 req_afficher_statistiques(req, res, query);
