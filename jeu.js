@@ -9,14 +9,14 @@ monObjet.generer_texte = function (situation, id) {
 	return html;
 };
 
-monObjet.generer_button = function (choix) {
+monObjet.generer_button = function (choix, id) {
     let marqueur;
-	let j;
+	let situation;
 
     marqueur = "";
 
     for (let j = 0; j < choix.length; j++) {
-        marqueur += `<button name="texte" value="${j}">`+ choix[j].text +`</button>`;
+		marqueur += `<a href = "/req_choisir?rep=${j && situation[id].text}"><button name="texte" value="${j}">`+ choix[j].text +`</button>`;
         marqueur += `<br>`;
     }
     return marqueur;

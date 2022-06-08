@@ -7,11 +7,11 @@
 		"choix":[
 					{
 						"text":"Se promener",
-						"choix suivant":"1"
+						"nextText":"1"
 					},		
 					{
                         "text":"Rester à la maison",
-                        "choix suivant":"0"
+                        "nextText":"0"
                     }
 				]
 },
@@ -21,7 +21,7 @@
 		"choix":[
 					{
 						"text":"L'aider",
-						"choix suivant":"2"
+						"nextText":"2"
 					},
 					{
                 		"text":"Rien faire",
@@ -39,15 +39,15 @@
         "choix":[
            			 {
                 		"text":"Accepter",
-                		"choix suivant":"5"
+                		"nextText":"5"
             		 },
 					  {
                         "text":"Refuser",
-                        "choix suivant":"6"
+                        "nextText":"6"
                     },
 					{
                         "text":"Fuir",
-                        "choix suivant":"7"
+                        "nextText":"7"
                     }
              	]
 }, 
@@ -57,11 +57,11 @@
         "choix":[
                      {
                         "text":"Retourner l'aider",
-                        "choix suivant":"2"
+                        "nextText":"2"
                      },
 					 {
                         "text":"Rentrer à la maison",
-                        "choix suivant":"0"
+                        "nextText":"0"
                      }
                 ]
 },
@@ -71,7 +71,7 @@
         "choix":[
                      {
                         "text":"Vous rentrez chez vous en chaise roulante.",
-                        "choix suivant":"0"
+                        "nextText":"0"
                      }
                 ]
 },
@@ -81,7 +81,7 @@
         "choix":[
                      {
                         "text":"Commencer la journée.",
-                        "choix suivant":"0"
+                        "nextText":"0"
                     }
                 ]
 },
@@ -91,11 +91,11 @@
         "choix":[
                      {
                         "text":"Recommencer la journée",
-                        "choix suivant":"0"
+                        "nextText":"0"
                      },
 					 {
                         "text":"Quittez le jeu",
-                        "choix suivant":"0"
+                        "nextText":"0"
                      }
                 ]
 },
