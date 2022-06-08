@@ -12,12 +12,19 @@ const trait1 = function (req, res, query) {
 	let contenu;
 	let situation;
 	let marqueurs;
+	let temps = 181;
 
 	contenu = fs.readFileSync("situation.json", "utf-8");
 	situation = JSON.parse(contenu);
+	
+	setInterval(() =>{
+		temps--;
+	},1000);	
+	
 
     marqueurs = {};
-    marqueurs.texte = monObjet.generer_texte (situation, 0);
+    marqueurs["temps"] = temps;
+	marqueurs.texte = monObjet.generer_texte (situation, 0);
     marqueurs.buttons = monObjet.generer_button(situation[0].choix);	
     
 	// AFFICHAGE DE LA PAGE D'ACCUEIL 2 I-E le Jeu code en Html Css et Js

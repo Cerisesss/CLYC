@@ -22,7 +22,8 @@ const statistiques  = function (req, res, query) {
 
     /* == Fabrication et envoi de la réponse (page HTML) == */
     marqueurs = {};
-    marqueurs.photo = generer_situation(Femme.fin_debloquees[0]);
+    marqueurs.photo = generer_situation(Femme.fin_debloquees);
+	marqueurs.source = "images/photo1.jpg"
 	//console.log(marqueurs.liste);
     page = fs.readFileSync("statistiques.html", "utf-8");
     page = nj.renderString(page, marqueurs);
