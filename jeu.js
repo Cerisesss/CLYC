@@ -2,6 +2,8 @@
 
 let monObjet = {};
 
+// permet d'afficher le texte général du JSON
+
 monObjet.generer_texte = function (situation, id) {
     let html;
 
@@ -9,9 +11,10 @@ monObjet.generer_texte = function (situation, id) {
 	return html;
 };
 
+// permet d'afficher le texte des boutons du JSON
+
 monObjet.generer_button = function (choix, id) {
     let marqueur;
-	let situation;
 
     marqueur = "";
 
