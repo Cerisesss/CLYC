@@ -13,6 +13,10 @@ const traite = function (req, res, query) {
 	let id;
 	let marqueurs;
 
+	
+	// query.situation // id de la situation précédente
+
+
 	// ON LIT LES FICHIERS JSON EXISTANTS 
 
     contenu_fichier = fs.readFileSync("situation.json", 'utf-8');
@@ -20,7 +24,7 @@ const traite = function (req, res, query) {
     
 	marqueurs = {};
 	marqueurs.texte = monObjet.generer_texte (situation, id);
-    marqueurs.buttons = monObjet.generer_button(situation[id].choix);
+    marqueurs.buttons = monObjet.generer_button(situation[id].choix, id);
         
     page = fs.readFileSync("jeuIndex.html", 'utf-8');
     page = nunjucks.renderString(page, marqueurs);

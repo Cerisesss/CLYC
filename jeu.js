@@ -16,7 +16,8 @@ monObjet.generer_button = function (choix, id) {
     marqueur = "";
 
     for (let j = 0; j < choix.length; j++) {
-		marqueur += `<a href = "/req_choisir?rep=${j && situation[id].text}"><button name="texte" value="${j}">`+ choix[j].text +`</button>`;
+		marqueur += `<a href = "/req_choisir?rep=${j}&situation=${id}"><button>`
+			+ choix[j].text +`</button></a>`;
         marqueur += `<br>`;
     }
     return marqueur;

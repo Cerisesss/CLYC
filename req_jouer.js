@@ -25,7 +25,7 @@ const trait1 = function (req, res, query) {
     marqueurs = {};
     marqueurs["temps"] = temps;
 	marqueurs.texte = monObjet.generer_texte (situation, 0);
-    marqueurs.buttons = monObjet.generer_button(situation[0].choix);	
+    marqueurs.buttons = monObjet.generer_button(situation[0].choix, 0);
     
 	// AFFICHAGE DE LA PAGE D'ACCUEIL 2 I-E le Jeu code en Html Css et Js
 
