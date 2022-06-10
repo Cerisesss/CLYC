@@ -10,9 +10,9 @@
 
 		{{ erreur }}
 		<form action="/req_identifier" method="GET">
-			<input type="text" name="pseudo" value="{{ pseudo }}">
+			<input type="text" name="pseudo" value="{{ pseudo }}" required>
 			<br/>
-			<input type="password" name="password" value="">
+			<input type="password" name="password" value="" required>
 			<br/>
 			<input type="submit" name="action" value="Se connecter">
 		</form>

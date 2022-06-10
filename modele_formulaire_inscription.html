@@ -13,10 +13,10 @@
 
 		<form action="/req_inscrire" method="GET">
 			<label>Pseudo :</label>
-			<input type="text" name="pseudo" value="{{ pseudo }}">
+			<input type="text" name="pseudo" value="{{ pseudo }}" required>
 			<br/>
 			<label>Mot de passe :</label>
-			<input type="text" name="password" value="">
+			<input type="text" name="password" value="" pattern=".{8,}" title="minimum eight characters needed" required>
 			<br/>
 			<button name="action" value="creer">Créer compte</button>
 		</form>
