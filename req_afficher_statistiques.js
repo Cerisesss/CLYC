@@ -24,6 +24,7 @@ const statistiques  = function (req, res, query) {
     marqueurs = {};
     marqueurs.photo = generer_situation(Femme.fin_debloquees);
 	marqueurs.source = "images/photo1.jpg"
+	marqueurs.pseudo = query.pseudo;
 	//console.log(marqueurs.liste);
     page = fs.readFileSync("statistiques.html", "utf-8");
     page = nj.renderString(page, marqueurs);

@@ -9,7 +9,7 @@
 		<h2>Mon compte CLYC</h2>
 
 		{{ erreur }}
-		<form action="/req_identifier" method="GET">
+		<form action="/req_identifier" method="GET"autocomplete="off">
 			<input type="text" name="pseudo" value="{{ pseudo }}" required>
 			<br/>
 			<input type="password" name="password" value="" required>
