@@ -5,18 +5,21 @@
   	<meta name="viewport" content="width=device-width, initial-scale=1.0">
   	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 		<meta http-equiv="refresh" content="{{temps}}; url=http://localhost:5000/req_afficher_statistiques">
+		<script type="module" src="defil.js"></script>
 		<link href="style.css" rel="stylesheet">
 		<script defer src="jeu.js"></script>
 		<link href="timer.css" rel="stylesheet">
 	    <script defer src="timer.js"></script>
 	</head>
 	<body>
-		<div id="timer">3:00</div>
+	<div data-defil>
 			<div class="container">
 				{{ texte | safe }}
 				<img src = "{{ id | safe }}".png>
 				{{ buttons | safe }}
-			</div>
+				<div id="timer">3:00</div>
 		</div>
+			</div>
+			</div>
 	</body>
 </html>

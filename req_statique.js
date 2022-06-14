@@ -28,8 +28,8 @@ const req_statique = function (req, res, query) {
 		type = 'text';
 		sousType = 'css';
 	} else if (extname === ".js") {
-		type = 'text';
-		sousType = 'js';
+		type = 'application';
+		sousType = 'javascript';
 	} else if (extname === ".jpg" || extname === ".jpeg") {
 		type = 'image';
 		sousType = 'jpeg';

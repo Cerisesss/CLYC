@@ -1,4 +1,4 @@
-const interval = 25;
+const interval = 50;
 const targetElements = Array.from(document.querySelectorAll("[data-defil]"));
 const defilTrees = targetElements.map(element => traverseAndRemove(element));
 
@@ -9,7 +9,7 @@ function defilStep() {
 	const iteratorResult = gen.next();
 
 	if (!iteratorResult.done) {
-		setTimeout(defilStep, 25);
+		setTimeout(defilStep, 50);
 	}
 }
 
