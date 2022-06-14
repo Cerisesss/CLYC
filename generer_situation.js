@@ -5,7 +5,7 @@ const generer_situation = function (Femme) {
     html = "";
 
 		html +=`Wow vous avez debloqué une fin`
-        html += `<img src="images/photo1.jpg">`;
+        html += `<img src="images/interrogation.jpg">`;
         html += Femme.fin_debloquees;
         html += `<br>`;
     

@@ -11,18 +11,18 @@ const statistiques  = function (req, res, query) {
 
     /* == Récupération des champs de la query-string == */
     /* == Récupération du contexte ==  */
-    contenu = fs.readFileSync("Femme.json", "utf-8");
-    Femme = JSON.parse(contenu);
+    contenu = fs.readFileSync(query.pseudo + ".json", "utf-8");
+    query.pseudo = JSON.parse(contenu);
 
     /* == Traitement == */
 
     /* == Mémorisation du contexte == */
-    contenu = JSON.stringify(Femme);
-    fs.writeFileSync("Femme.json", contenu, "utf-8");
+    contenu = JSON.stringify(query.pseudo);
+    fs.writeFileSync(query.pseudo + ".json", contenu, "utf-8");
 
     /* == Fabrication et envoi de la réponse (page HTML) == */
     marqueurs = {};
-    marqueurs.photo = generer_situation(Femme.fin_debloquees);
+    marqueurs.photo = generer_situation((query.pseudo).fin_debloquees);
 	marqueurs.source = "images/photo1.jpg"
 	marqueurs.pseudo = query.pseudo;
 	//console.log(marqueurs.liste);
