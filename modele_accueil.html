@@ -3,12 +3,13 @@
 	<head>
 		<title>Accueil</title>
 		<meta charset="utf-8">
-		 <link rel="stylesheet" type="text/css" href="background_accueil.css">
+		<link rel="stylesheet" type="text/css" href="background_accueil.css">
 	</head>
 	<body>
 		<h2>Mon compte CLYC</h2>
 
 		{{ erreur }}
+
 		<form action="/req_identifier" method="GET"autocomplete="off">
 			<input type="text" name="pseudo" value="{{ pseudo }}" required>
 			<br/>
