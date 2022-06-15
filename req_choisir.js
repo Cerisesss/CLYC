@@ -25,7 +25,7 @@ const traite = function (req, res, query) {
 	marqueurs = {};
 	marqueurs.situation = query.situation;
 	marqueurs.texte = monObjet.generer_texte (situation, id);
-    marqueurs.buttons = monObjet.generer_button(situation[id].choix, id);
+    marqueurs.buttons = monObjet.generer_button(situation[id].choix, id, query.pseudo);
     marqueurs.temps = 180;
     
 	page = fs.readFileSync("jeuIndex.html", 'utf-8');

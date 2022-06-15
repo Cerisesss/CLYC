@@ -11,52 +11,40 @@ monObjet.generer_texte = function (situation, id) {
 	return html;
 };
 
-// permet d'afficher le texte des boutons du JSON
+// permet d'afficher le texte des boutons du JSON et les indices aussi
 
-monObjet.generer_button = function (choix, id) {
-    let marqueur;
+monObjet.generer_button = function (choix, id, pseudo) {
+    
+    let contenu_sauvegarde;
+    let sauvegarde;
+	let marqueur;
+	let contenu_fichier;
+
+    contenu_sauvegarde = fs.readFileSync(pseudo + ".json", 'utf-8');
+    sauvegarde = JSON.parse(contenu_sauvegarde);
 
     marqueur = "";
 
     for (let j = 0; j < choix.length; j++) {
-		marqueur += `<a href = "/req_choisir?rep=${j}&situation=${id}"><button>`
-			+ choix[j].text +`</button></a>`;
+		if(choix[j].honneur == true 
+		&& (
+			sauvegarde.fin_debloquees.indexOf("finA") !== -1 
+			|| sauvegarde.fin_debloquees.indexOf("finC") !== -1
+		) {
+			contenu_fichier = choix[j].text + "🏆";
+
+		}else if(choix[j].deshonneur == true
+        && sauvegarde.fin_debloquees.indexOf("finB") !== -1 
+        ){  
+            contenu_fichier = choix[j].text + "🍩";
+
+        }else{  
+                contenu_fichier = choix[j].text;
+        }
+
+		marqueur += `<a href = "/req_choisir?rep=${j}&situation=${id}&pseudo=${pseudo}"> 
+            <button>`+ contenu_fichier + `</button></a>`;
         marqueur += `<br>`;
-    }
-    return marqueur;
-};
-
-
-
-
-
-
-//if : l affichage de ce qu'on veut mettre (icone)
-//dans situation.json : choisir selon notre adaptation les indices (honneur, bravour...)
-
-monObjet.generer_button = function (choix, id) {
-    let marqueur;
-	let contenu_situation;
-    let contenu_Femme;
-    let situation;
-    let Femme;
-
-    contenu_Femme = fs.readFileSync("Femme.json", 'utf-8');
-    Femme = JSON.parse(contenu_Femme);
-
-    marqueur = "";
-
-    for (let j = 0; j < choix.length; j++) {
-		if(honneur == true && Femme.length > 0){
-        	marqueur += `<a href = "/req_choisir?rep=${j}&situation=${id}"><button>`
-            	+ choix[j].text + choix[j].honneur + `</button></a>`;
-        	marqueur += `<br>`;
-			// situation[id].choix[j].honneur = "🏆";
-
-    	}else{
-			marqueur += `<a href = "/req_choisir?rep=${j}&situation=${id}"><button>`
-                + choix[j].text +`</button></a>`;
-            marqueur += `<br>`;
 	}
     return marqueur;
 };
