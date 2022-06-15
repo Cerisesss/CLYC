@@ -41,7 +41,8 @@ const trait = function (req, res, query) {
 
 		contenu_fichier = JSON.stringify(listeMembres);
 		fs.writeFileSync("membres.json", contenu_fichier, 'utf-8');
-		let fichier_json =fs.writeFileSync(nouveauMembre.pseudo +".json", "{\"fin_debloquees\":[\"finA\",\"finB\",\"finC\"]}", "utf-8"); 
+		let fichier_json =fs.writeFileSync(nouveauMembre.pseudo +
+		".json","{fin_debloquees:[]}","utf-8"); 
 	}
 
 	// ON RENVOIT UNE PAGE HTML 
