@@ -26,10 +26,13 @@ monObjet.generer_button = function (choix, id, pseudo) {
     marqueur = "";
 
     for (let j = 0; j < choix.length; j++) {
-		if(choix[j].honneur == true 
-		&& (
+
+		if(
+			choix[j].honneur == true 
+			&& (
 			sauvegarde.fin_debloquees.indexOf("finA") !== -1 
 			|| sauvegarde.fin_debloquees.indexOf("finC") !== -1
+			)
 		) {
 			contenu_fichier = choix[j].text + "🏆";
 
