@@ -16,11 +16,14 @@ const trait1 = function (req, res, query) {
 
 	contenu = fs.readFileSync("situation.json", "utf-8");
 	situation = JSON.parse(contenu);
-	
+
+//compte à rebours
+
 	setInterval(() =>{
 		temps--;
 	},1000);	
 	
+//les marqueurs
 
     marqueurs = {};
     marqueurs["temps"] = temps;
