@@ -7,18 +7,23 @@ const monObjet = require("./jeu.js");
 const traite = function (req, res, query) {
     
 	let id;
+	let contenu_fichier;
     let contenu_sauvegarde;
     let situation_courante;
     let situation_suivante;
     let sauvegarde;
     let marqueurs;
     let page;
+	let situation;
+
+	contenu_fichier = fs.readFileSync("situation.json", "utf-8");
+	situation = JSON.parse(contenu_fichier);
 
     contenu_sauvegarde = fs.readFileSync(query.pseudo + ".json", "utf-8");
-    sauvegarde = JSON.parse(sauvegarde);
+    sauvegarde = JSON.parse(contenu_sauvegarde);
 
-    situation_courante = situation(query.situation);
-    id = situation_courante.choix(query.rep).nextText;
+    situation_courante = situation[query.situation];
+    id = situation_courante.choix[query.rep].nextText;
     situation_suivante = situation[id];
 
     if  (
@@ -28,8 +33,8 @@ const traite = function (req, res, query) {
             sauvegarde.fin_debloquees.push(situation_suivante.debloque);
         }
 
-    contenu_sauvegarde = fs.writeFileSync(query.pseudo + ".json",'utf-8');
-    fs.writeFileSync = JSON.parse(sauvegarde);
+    contenu_sauvegarde = JSON.stringify(sauvegarde);
+	fs.writeFileSync (query.pseudo + ".json", contenu_sauvegarde, 'utf-8');
 
 	marqueurs = {};
 	marqueurs.situation = query.situation;

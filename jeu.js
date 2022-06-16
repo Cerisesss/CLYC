@@ -15,6 +15,8 @@ monObjet.generer_texte = function (situation, id) {
 
 monObjet.generer_button = function (choix, id, pseudo) {
     
+	const fs = require("fs");
+
     let contenu_sauvegarde;
     let sauvegarde;
 	let marqueur;
