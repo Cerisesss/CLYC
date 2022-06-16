@@ -6,28 +6,37 @@ const monObjet = require("./jeu.js");
 
 const traite = function (req, res, query) {
     
-	let page;
-    let contenu_fichier;
-    let situation_jeu;
-	let situation;
 	let id;
-	let marqueurs;
+    let contenu_sauvegarde;
+    let situation_courante;
+    let situation_suivante;
+    let sauvegarde;
+    let marqueurs;
+    let page;
 
-	// query.situation // id de la situation précédente
-	
-	// ON LIT LES FICHIERS JSON EXISTANTS 
+    contenu_sauvegarde = fs.readFileSync(query.pseudo + ".json", "utf-8");
+    sauvegarde = JSON.parse(sauvegarde);
 
-    contenu_fichier = fs.readFileSync("situation.json", 'utf-8');
-    situation = JSON.parse(contenu_fichier);
+    situation_courante = situation(query.situation);
+    id = situation_courante.choix(query.rep).nextText;
+    situation_suivante = situation[id];
 
-	id = situation[query.situation].choix[query.rep].nextText;
-	
+    if  (
+        situation_courante.debloque
+        && sauvegarde.fin_debloquees.indexOf(situation_suivante.debloque) === -1
+		) {
+            sauvegarde.fin_debloquees.push(situation_suivante.debloque);
+        }
+
+    contenu_sauvegarde = fs.writeFileSync(query.pseudo + ".json",'utf-8');
+    fs.writeFileSync = JSON.parse(sauvegarde);
+
 	marqueurs = {};
 	marqueurs.situation = query.situation;
 	marqueurs.texte = monObjet.generer_texte (situation, id);
     marqueurs.buttons = monObjet.generer_button(situation[id].choix, id, query.pseudo);
     marqueurs.temps = 180;
-    
+
 	page = fs.readFileSync("jeuIndex.html", 'utf-8');
     page = nunjucks.renderString(page, marqueurs);
 
