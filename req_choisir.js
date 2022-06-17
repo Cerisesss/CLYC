@@ -30,7 +30,7 @@ const traite = function (req, res, query) {
         situation_courante.debloque
         && sauvegarde.fin_debloquees.indexOf(situation_suivante.debloque) === -1
 		) {
-            sauvegarde.fin_debloquees.push(situation_suivante.debloque);
+            sauvegarde.fin_debloquees.push(situation_courante.debloque);
         }
 
     contenu_sauvegarde = JSON.stringify(sauvegarde);

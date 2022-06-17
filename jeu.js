@@ -42,11 +42,9 @@ monObjet.generer_button = function (choix, id, pseudo) {
         && sauvegarde.fin_debloquees.indexOf("finB") !== -1 
         ){  
             contenu_fichier = choix[j].text + "🍩";
-
         }else{  
                 contenu_fichier = choix[j].text;
         }
-
 		marqueur += `<a href = "/req_choisir?rep=${j}&situation=${id}&pseudo=${pseudo}"> 
             <button>`+ contenu_fichier + `</button></a>`;
         marqueur += `<br>`;
