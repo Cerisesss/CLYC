@@ -13,7 +13,6 @@ const statistiques  = function (req, res, query) {
     /* == Récupération du contexte ==  */
     contenu = fs.readFileSync(query.pseudo + ".json", "utf-8");
     sauvegarde = JSON.parse(contenu); 
-	console.log(sauvegarde);
 
     /* == Traitement == */
 
