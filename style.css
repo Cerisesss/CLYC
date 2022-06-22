@@ -1,45 +1,58 @@
-*, *::before, *::after {
+*, *::before, *::after { 
   box-sizing: border-box;
   font-family: Gotham Rounded;
 }
 
   body {
-  padding: 0;
-  margin: 0;
-  display: flex;
-  justify-content: space-around;
-  align-items: end;
-  width: 100vw;
-  height: 100vh;
-  background-color: #333;
+	color:#ffffff;
+	background:#202020;
+	border-top-style: solid;
+	border-top-color: #333333;
+	border-top-width: 2px;
+	border-bottom-style: solid;
+	border-bottom-color: #333333;
+ display:grid;
+ min-height:30%;
+ max-height:30%;
+ overflow:hidden;
+ z-index:10;
+ position:absolute;
+ bottom:0;
 }
 
 .container {
-  width: 1900px;
-  max-width: 300%;
-  background-color: white;
-  padding: 30px;
+	font-size: 1.3rem;
+	text-align: left;
+	border-bottom-color: #4b4b4b;
+	border-bottom-style: dashed;
+	border-bottom-width: 1px;
+	color: white;
+	  padding: 30px;
   border-radius: 10px;
   box-shadow: 0 0 30px 3px;
+    width: 1900px;
+  max-width: 300%;
 }
 
 .btn-grid {
-  display: grid;
-  grid-template-columns: repeat(3, auto);
-  gap: 35px;
-  margin-top: 20px;
+color:#000000;
+	background:#959595;
+	border-style: solid;
+	border-width: 2px;
+	box-shadow: 3px 3px 0px #000000;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
 }
 
 .btn {
-  background-color: hsl(3, 50%, 50%);
-  border: 2px solid hsl(200, 50%, 30%);
-  border-radius: 5px;
-  padding: 5px 5px;
-  color: white;
-  outline: none;
+ color: darkred;
 }
 
 .btn:hover {
-  border-color: black;
+  background-color: transparent;
+				color: black;
 }
+
+
+
 
