@@ -15,42 +15,58 @@ const statistiques  = function (req, res, query) {
     sauvegarde = JSON.parse(contenu); 
 
     /* == Traitement == */
-
-    /* == Mémorisation du contexte == */
-    // contenu = JSON.stringify(query.pseudo);
-    // fs.writeFileSync(query.pseudo + ".json", contenu, "utf-8");
-
     /* == Fabrication et envoi de la réponse (page HTML) == */
     marqueurs = {};
 	if (sauvegarde.fin_debloquees.indexOf("finA")!==-1) { 
 			marqueurs.source ="images/photo1.jpg"
+			marqueurs.texte_1 =" wow vous avez debloqué la premiere fin"
 	} else {
 			marqueurs.source ="images/interrogation.jpg"	
+			marqueurs.texte_1 ="fin non debloquées" 
 	}
 	if (sauvegarde.fin_debloquees.indexOf("finB")!==-1) { 
 			marqueurs.source_1 ="images/photo1.jpg"
+			marqueurs.texte_2 =" wow vous avez debloqué la deuxieme fin"
+
 	} else {
 		marqueurs.source_1 = "images/interrogation.jpg"
+		marqueurs.texte_2 ="fin non debloquées"
+
 	}
 	if (sauvegarde.fin_debloquees.indexOf("finC")!==-1){
 			marqueurs.source_2 ="images/photo1.jpg"
+			 marqueurs.texte_3 =" wow vous avez debloqué la troisième fin"
+
 	} else {
 		marqueurs.source_2="images/interrogation.jpg"
+		marqueurs.texte_3 ="fin non debloquée"
 	}
 	if (sauvegarde.fin_debloquees.indexOf("finD")!==-1){
     		marqueurs.source_3 ="images/photo1.jpg"
+			marqueurs.texte_4 =" wow vous avez debloqué la quatrième fin"
+
     } else { 
 		marqueurs.source_3="images/interrogation.jpg"
+		marqueurs.texte_4 ="fin non debloquée"
+
 	}
 	if (sauvegarde.fin_debloquees.indexOf("finE")!==-1){
     	marqueurs.source_4 ="images/photo1.jpg"
+		marqueurs.texte_5 ="wow vous avez debloqué la cinquième fin"
+
     } else  {
 		marqueurs.source_4 ="images/interrogation.jpg"
+		marqueurs.texte_5 ="fin non debloquée"
+
 	}
 	if (sauvegarde.fin_debloquees.indexOf("finF")!==-1){
    		 marqueurs.source_5 ="images/photo1.jpg"
+		 marqueurs.texte_6 ="wow vous avez debloqué la sixième fin"
+
   	} else {
 		marqueurs.source_5 = "images/interrogation.jpg"
+		marqueurs.texte_6 ="fin non debloquée"
+
 	} 
 	marqueurs.pseudo = query.pseudo;
 	//console.log(marqueurs.liste);
