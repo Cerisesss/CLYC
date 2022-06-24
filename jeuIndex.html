@@ -1,15 +1,16 @@
 <!DOCTYPE html>
 <html>
 	<head>
-  	<meta charset="UTF-8">
-  	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-  	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-		<meta http-equiv="refresh" content="{{temps}}; url=http://localhost:5000/req_afficher_statistiques?pseudo={{ pseudo }}">
+	  	<meta charset="UTF-8">
+	  	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	  	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 		<script type="module" src="defil.js"></script>
 		<link href="style.css" rel="stylesheet">
 		<script defer src="jeu.js"></script>
 		<link href="timer.css" rel="stylesheet">
 	    <script defer src="timer.js"></script>
+		<img src="0.png">
+		<meta http-equiv="refresh" content="{{temps}}; url=http://localhost:5000/req_afficher_statistiques?pseudo={{ pseudo }}">
 	</head>
 	<body>
 		<div class="container">
@@ -18,8 +19,8 @@
 				{{ texte | safe }}
 				<img src = "{{ id | safe }}".png>
 				{{ buttons | safe }}
+			</div>
 		</div>
-			</div>
-			</div>
+	</div>
 	</body>
 </html>

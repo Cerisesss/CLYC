@@ -5,8 +5,10 @@ let monObjet = {};
 // permet d'afficher le texte général du JSON
 
 monObjet.generer_texte = function (situation, id) {
-    let html;
 
+	let html;
+
+	html += `< img src ="` +situation[j].id+ `.png">`;
 	html = situation[id].text;
 	return html;
 };
@@ -45,9 +47,9 @@ monObjet.generer_button = function (choix, id, pseudo) {
         }else{  
                 contenu_fichier = choix[j].text;
         }
+        marqueur += `<br>`;
 		marqueur += `<a href = "/req_choisir?rep=${j}&situation=${id}&pseudo=${pseudo}"> 
             <button>`+ contenu_fichier + `</button></a>`;
-        marqueur += `<br>`;
 	}
     return marqueur;
 };
