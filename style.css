@@ -3,39 +3,29 @@
   font-family: Gotham Rounded;
 }
 
-  body {
-	color:#ffffff;
+body {
 	background:#202020;
-	border-top-style: solid;
-	border-top-color: #333333;
-	border-top-width: 2px;
 	border-bottom-style: solid;
-	border-bottom-color: #333333;
- display:grid;
- min-height:30%;
- max-height:30%;
- overflow:hidden;
- z-index:10;
- position:absolute;
- bottom:0;
+ 	display: flex;
+  	justify-content: space-around;
+ 	align-items: end;
+  	width: 99vw;
+ 	overflow:hidden;
+ 	position:absolute;
+ 	bottom:0;
 }
 
 .container {
 	font-size: 1.3rem;
-	text-align: left;
-	border-bottom-color: #4b4b4b;
-	border-bottom-style: dashed;
-	border-bottom-width: 1px;
 	color: white;
-	  padding: 30px;
-  border-radius: 10px;
-  box-shadow: 0 0 30px 3px;
-    width: 1900px;
-  max-width: 300%;
+	padding: 30px;
+  	border-radius: 10px;
+  	box-shadow: 0 0 30px 3px;
+  	max-width: 300%;
 }
 
 .btn-grid {
-color:#000000;
+	color:#000000;
 	background:#959595;
 	border-style: solid;
 	border-width: 2px;
