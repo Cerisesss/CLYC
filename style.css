@@ -8,11 +8,8 @@ body {
 	border-bottom-style: solid;
  	display: flex;
   	justify-content: space-around;
- 	align-items: end;
   	width: 99vw;
- 	overflow:hidden;
- 	position:absolute;
- 	bottom:0;
+	flex-direction:column;
 }
 
 .container {
@@ -21,7 +18,7 @@ body {
 	padding: 30px;
   	border-radius: 10px;
   	box-shadow: 0 0 30px 3px;
-  	max-width: 300%;
+  	width: 100%;
 }
 
 .btn-grid {

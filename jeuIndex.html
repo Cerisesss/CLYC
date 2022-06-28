@@ -12,12 +12,12 @@
 		<meta http-equiv="refresh" content="{{temps}}; url=http://localhost:5000/req_afficher_statistiques?pseudo={{ pseudo }}">
 	</head>
 	<body>
-		<div class="container">
-			<div id="timer">2:00</div>
-				<div data-defil>
-				{{ texte | safe }}
-				<img src = "{{ id | safe }}".png>
-				{{ buttons | safe }}
+		<img src = "{{ id | safe }}">
+			<div class="container">
+				<div id="timer">2:00</div>
+					<div data-defil>
+					{{ texte | safe }}
+					{{ buttons | safe }}
 			</div>
 		</div>
 	</div>

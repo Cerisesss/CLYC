@@ -9,7 +9,7 @@
                         "nextText":"1"
                     }
                 ],
-		"image":"/images/id0.jpg"
+		"image":"/images/0.jpg"
 
 },
 {
@@ -21,7 +21,7 @@
                         "nextText":"2"
                     }
                 ],
-		"image":"/images/id1.jpg"
+		"image":"/images/1.jpg"
 },
 {
         "id": "2",
@@ -32,7 +32,7 @@
                         "nextText":"3"
                     }
                 ],
-		"image":"/images/id2.jpg"
+		"image":"/images/2.jpg"
 },
 {
         "id": "3",
@@ -43,7 +43,7 @@
                         "nextText":"4"
                     }
                 ],
-		"image":"/images/id3.jpg"
+		"image":"/images/3.jpg"
 },
 {
         "id": "4",
@@ -55,14 +55,16 @@
                      },
                      {
                         "text":"Se rendre",
-                        "nextText":" "
+                        "nextText":"34",
+						"deshonneur":true
                      },
 					 {
                         "text":"S'expliquer",
-                        "nextText":" "
+                        "nextText":"",
+						"rationnel": true
                      }
                 ],
-		"image":"/images/id4.jpg"
+		"image":"/images/4.jpg"
 },
 {
 		"id" : "5",
@@ -78,10 +80,11 @@
                      },
                      {
                         "text":"Se cacher dans le château ",
-                        "nextText":"34"
+                        "nextText":"34",
+						"deshonneur":true
                      }
                 ],
-		"image":"/images/id5.jpg"
+		"image":"/images/5.jpg"
 },
 {
         "id" : "6",
@@ -474,7 +477,7 @@
                 "nextText":"0"
             }
     	],
-		"image":"/images/id34.jpg"
+		"image":"/images/34.jpg"
 }
 
 ]
