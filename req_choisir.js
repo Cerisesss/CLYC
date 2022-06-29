@@ -27,7 +27,7 @@ const traite = function (req, res, query) {
     situation_suivante = situation[id];
 
     if  (
-        situation_courante.debloque
+        situation_courante.debloque == "finA"
         && sauvegarde.fin_debloquees.indexOf(situation_suivante.debloque) === -1
 		) {
             sauvegarde.fin_debloquees.push(situation_courante.debloque);

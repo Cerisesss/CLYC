@@ -477,7 +477,8 @@
                 "nextText":"0"
             }
     	],
-		"image":"/images/34.jpg"
+		"image":"/images/34.jpg",
+		"debloque":"finA"
 }
 
 ]
