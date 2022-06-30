@@ -40,7 +40,7 @@ const traite = function (req, res, query) {
 	marqueurs.situation = query.situation;
 	marqueurs.texte = monObjet.generer_texte (situation, id);
     marqueurs.buttons = monObjet.generer_button(situation[id].choix, id, query.pseudo);
-    marqueurs.temps = 180;
+    marqueurs.temps = 121;
 
 	page = fs.readFileSync("jeuIndex.html", 'utf-8');
     page = nunjucks.renderString(page, marqueurs);
