@@ -19,7 +19,7 @@ const statistiques  = function (req, res, query) {
     marqueurs = {};
 	if (sauvegarde.fin_debloquees.indexOf("finA")!==-1) { 
 			marqueurs.source ="images/photo1.jpg"
-			marqueurs.texte_1 =" wow vous avez debloqué la premiere fin"
+			marqueurs.texte_1 ="Bravo, vous êtes mort. Vos choix vous ont menés à une fin tragique, vos compagnons vous ont exécuté !"
 	} else {
 			marqueurs.source ="images/interrogation.jpg"	
 			marqueurs.texte_1 ="fin non debloquées" 
