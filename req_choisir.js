@@ -26,10 +26,40 @@ const traite = function (req, res, query) {
     id = situation_courante.choix[query.rep].nextText;
     situation_suivante = situation[id];
 
-    if  (
+	if  (
         situation_courante.debloque == "finA"
         && sauvegarde.fin_debloquees.indexOf(situation_suivante.debloque) === -1
-		) {
+        ) {
+            sauvegarde.fin_debloquees.push(situation_courante.debloque);
+        }
+    else if  (
+        situation_courante.debloque == "finB"
+        && sauvegarde.fin_debloquees.indexOf(situation_suivante.debloque) === -1
+        ) {
+            sauvegarde.fin_debloquees.push(situation_courante.debloque);
+        }
+    else if  (
+        situation_courante.debloque == "finC"
+        && sauvegarde.fin_debloquees.indexOf(situation_suivante.debloque) === -1
+        ) {
+            sauvegarde.fin_debloquees.push(situation_courante.debloque);
+        }
+    else if  (
+        situation_courante.debloque == "finD"
+        && sauvegarde.fin_debloquees.indexOf(situation_suivante.debloque) === -1
+        ) {
+            sauvegarde.fin_debloquees.push(situation_courante.debloque);
+        }
+    else if  (
+        situation_courante.debloque == "finE"
+        && sauvegarde.fin_debloquees.indexOf(situation_suivante.debloque) === -1
+        ) {
+            sauvegarde.fin_debloquees.push(situation_courante.debloque);
+        }
+    else if  (
+        situation_courante.debloque == "finF"
+        && sauvegarde.fin_debloquees.indexOf(situation_suivante.debloque) === -1
+        ) {
             sauvegarde.fin_debloquees.push(situation_courante.debloque);
         }
 
