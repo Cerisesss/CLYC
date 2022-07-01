@@ -12,7 +12,7 @@ const trait1 = function (req, res, query) {
 	let contenu;
 	let situation;
 	let marqueurs;
-	let temps = 121;
+	let temps = 121000;
 
 	contenu = fs.readFileSync("situation.json", "utf-8");
 	situation = JSON.parse(contenu);

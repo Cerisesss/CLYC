@@ -72,6 +72,7 @@ const traite = function (req, res, query) {
     marqueurs.buttons = monObjet.generer_button(situation[id].choix, id, query.pseudo);
     marqueurs.temps = 121;
 	marqueurs.pseudo = query.pseudo;
+	marqueurs.id = situation[id].image;
 	page = fs.readFileSync("jeuIndex.html", 'utf-8');
     page = nunjucks.renderString(page, marqueurs);
 

@@ -47,8 +47,8 @@ monObjet.generer_button = function (choix, id, pseudo) {
         }else{  
                 contenu_fichier = choix[j].text;
         }
-        marqueur += `<br>`;
-        marqueur += `<br>`;
+        // marqueur += `<br>`;
+        // marqueur += `<br>`;
 		marqueur += `<a href = "/req_choisir?rep=${j}&situation=${id}&pseudo=${pseudo}"> 
             <button>`+ contenu_fichier + `</button></a>`;
 	}
