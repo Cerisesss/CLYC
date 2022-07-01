@@ -43,7 +43,7 @@ monObjet.generer_button = function (choix, id, pseudo) {
 		}else if(choix[j].deshonneur == true
         && sauvegarde.fin_debloquees.indexOf("finA") !== -1 
         ){  
-            contenu_fichier = choix[j].text + "🍩";
+            contenu_fichier = choix[j].text + " 👎";
         }else{  
                 contenu_fichier = choix[j].text;
         }
