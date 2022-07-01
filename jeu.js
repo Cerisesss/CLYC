@@ -34,14 +34,14 @@ monObjet.generer_button = function (choix, id, pseudo) {
 		if(
 			choix[j].honneur == true 
 			&& (
-			sauvegarde.fin_debloquees.indexOf("finA") !== -1 
+			sauvegarde.fin_debloquees.indexOf("finB") !== -1 
 			|| sauvegarde.fin_debloquees.indexOf("finC") !== -1
 			)
 		) {
 			contenu_fichier = choix[j].text + "🏆";
 
 		}else if(choix[j].deshonneur == true
-        && sauvegarde.fin_debloquees.indexOf("finB") !== -1 
+        && sauvegarde.fin_debloquees.indexOf("finA") !== -1 
         ){  
             contenu_fichier = choix[j].text + "🍩";
         }else{  
