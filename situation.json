@@ -1,4 +1,3 @@
-
 [
 {
 		"id": "0",
@@ -388,11 +387,11 @@
             },
             {
                 "text":"essayer de le raisonner",
-                "nextText":" "
+                "nextText":"35"
             },
             {
                 "text":"se laisser mourir",
-                "nextText":" "
+                "nextText":"36"
             }
         ]
 },
@@ -479,9 +478,29 @@
     	],
 		"image":"/images/34.jpg",
 		"debloque":"finA"
+},
+{
+        "id": "35",
+        "text":"François ignore vos paroles et vous perce le coeur avec son épée.",
+        "choix": [
+            {
+                "text":"Suivant",
+                "nextText":"36"
+            }
+        ]
+},
+{
+        "id": "36",
+        "text":"Vous vous réveillez soudainement avec des sueurs froides. Il fait nuit noire. Ce n'était qu'un rêve, vous avez fait un mauvais cauchemar...",
+        "choix": [
+            {
+                "text":"Recommencer",
+                "nextText":"0"
+            }
+    	],
+		"image":"",
+		"debloque":"finC"
 }
-
 ]
-
 
                                               
