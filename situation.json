@@ -1,3 +1,4 @@
+
 [
 {
 		"id": "0",
@@ -59,7 +60,7 @@
                      },
 					 {
                         "text":"S'expliquer",
-                        "nextText":"35",
+                        "nextText":"",
 						"rationnel": true
                      }
                 ],
@@ -75,7 +76,7 @@
                      },
 					  {
                         "text":"Se rendre dans la fôret ",
-                        "nextText":"39"
+                        "nextText":" "
                      },
                      {
                         "text":"Se cacher dans le château ",
@@ -93,36 +94,37 @@
                         "text":"Suivant.",
                         "nextText":"7"
                     }
-                ],
-				"image":"/images/6.jpg"
+                ]
 },
 {
         "id" : "7",
-		"text":"C'est alors que vous entendez parler d’une femme étrange, une sorcière dit-on. Une femme folle qui se ferait appeler Docteur De la Rose. On dit que cette femme étrange aurait été impliqué avec le Duc De Burger autrefois. À la recherche de cette étrange femme, vous parcourez mont et tempête et alors que vous êtes à bout de souffle, perdu dans une forêt, vous apercevez une petite cabane, isolé au milieu d’une petite clairière entouré de la forêt. Devant vous apparaît une étrange vieille femme et vous savez en un regard qu’elle est celle que vous cherchez. ",
+		"text":"C'est alors que vous entendez parler d’une femme étrange, une sorcière dit-on. Une femme folle qui se ferait appeler Docteur De la Rose. On dit que cette femme étrange aurait été impliqué avec le Duc De Burger autrefois. À la recherche de cette étrange femme, vous parcourez mont et tempête et alors que vous êtes à bout de souffle, perdu dans une forêt, vous apercevez une petite cabane, isolé au milieu d’une petite clairière entouré de la forêt. ",
         "choix":[
                      {
                         "text":"Suivant",
                         "nextText":"8"
                      }
-                ],
-                "image":"/images/7.jpg"
+                ]
 },
 {
 		
         "id": "8",
-	    "text":"Elle vous ouvre les yeux et pour la première fois depuis six années, vous doutez du système qui vous gouvernait depuis maintenant si longtemps. La seule personne qui pourrait vous innocenter, la seule personne de qui vous pourriez apprendre la réelle vérité, n’est autre que la personne qui vous a mis dans cette situation, soit la sorcière ayant fait la prédiction vous concernant. ",
+	    "text":"Devant vous apparaît une étrange vieille femme et vous savez en un regard qu’elle est celle que vous cherchez. Elle vous ouvre les yeux et pour la première fois depuis six années, vous doutez du système qui vous gouvernait depuis maintenant si longtemps. La seule personne qui pourrait vous innocenter, la seule personne de qui vous pourriez apprendre la réelle vérité, n’est autre que la personne qui vous a mis dans cette situation, soit la sorcière ayant fait la prédiction vous concernant. ",
         "choix": [
+            {
+                "text":"Chercher Andréa",
+                "nextText":" "
+            },
             {
                 "text":"Chercher Catherine",
                 "nextText":"9"
             },
 			{
                 "text":"Chercher le duc De Burger",
-                "nextText":"34"
+                "nextText":" "
             }
 
-        ],
-                "image":"/images/7.jpg"
+        ]
 },
 {
         "id": "9",
@@ -130,7 +132,7 @@
         "choix": [
             {
                 "text":"Camouflouer la marque avec les vetements ",
-                "nextText":"34"
+                "nextText":" "
             },
             {
                 "text":"Camouflouer la marque en la brulant pour la faire disparaître",
@@ -138,10 +140,9 @@
             },
 			{
                 "text":"Ne rien faire",
-                "nextText":"34"
+                "nextText":" "
             }
-        ],
-                "image":"/images/9.jpg"
+        ]
 },
 {
 		"id": "10",
@@ -151,8 +152,7 @@
                 "text":"Suivant",
                 "nextText":"11"
             }
-        ],
-                "image":"/images/9.jpg"
+        ]
 },
 {
 		"id": "11",
@@ -164,14 +164,13 @@
             },
             {
                 "text":"Se déguiser en domestique",
-                "nextText":"34"
+                "nextText":" "
             },
             {
                 "text":"se deguiser en marchant",
-                "nextText":"34"
+                "nextText":" "
             }
-        ],
-                "image":"/images/11.jpg"
+        ]
 },
 
 {
@@ -179,11 +178,18 @@
 	    "text":"Heureusement grâce au casque que portent chaque garde, vous réussissez à vous camoufler, avançant jusqu’à la tour où sont détenu les sorcières. Vous arrivez jusqu’à leur cellule et réussissez à trouver Catherine, la sorcière.  ",
         "choix": [
             {
-                "text":"Suivant",
+                "text":"Kidnapper la sorcière",
                 "nextText":"13"
+            },
+            {
+                "text":"Tuer la sorcière ",
+                "nextText":" "
+            },
+            {
+                "text":"Poser des questions à la sorcière ",
+                "nextText":" "
             }
         ]
-		"image":"/images/12.jpg"
 },
 {
         "id": "13",
@@ -195,7 +201,11 @@
             },
             {
                 "text":"Se cache dans le château ",
-                "nextText":"34"
+                "nextText":" "
+            },
+            {
+                "text":"",
+                "nextText":" "
             }
         ]
 },
@@ -224,7 +234,15 @@
 	    "text":"Catherine vous cri d’arrêter, que vous ne devez pas le tuer mais vous êtes fou de rage, comment pouvez-vous pardonner l’homme qui a violé votre fiancée, celui qui a gâché vos vies, brisé votre avenir avec elle. Pourrez-vous changer votre destin. ",
         "choix": [
             {
-                "text":"Suivant",
+                "text":"Tuer Pierre",
+                "nextText":" "
+            },
+            {
+                "text":"Laisser Pierre partir",
+                "nextText":" "
+            },
+            {
+                "text":"Arrêter Pierre ",
                 "nextText":"17"
             }
         ]
@@ -239,11 +257,11 @@
             },
 			{
 				"text":"Effacer les preuves",
-				"nextText":"34"
+				"nextText":" "
 			},
 			{
 				"text":"Vérifier s'il est toujours vivant",
-				"nextText":"34"
+				"nextText":" "
 			}
 	    ]
 },
@@ -272,11 +290,26 @@
 		"text":"Maintenant que vous savez que votre fiancée a été victime d’un viol et qu’elle a été écartée par sa famille, vous la savez en danger et vous vous précipitez avec Catherine à la recherche de votre bien-aimée. Vous cherchez un endroit où sa famille aurait pu la cacher. Vous confrontez donc la famille de sa fiancée qui vous apprend leur plan macabre, éliminer leur fille, maintenant qu’elle n’est plus qu’une honte pour eux. ",
         "choix": [
             {
-                "text":"Suivant",
+                "text":"Chercher Andréa",
                 "nextText":"21"
+            },
+            {
+                "text":"Tuer la famille d'Andréa ",
+                "nextText":" "
+            },
+            {
+                "text":"Ignorer Andréa",
+                "nextText":" "
             }
         ]
 },
+
+
+
+
+
+
+
 {
         "id": "21",
         "text":"Théodore et Catherine partirent la chercher aussi vite qu’ils le purent mais la famille de la jeune femme fut plus rapide, et averti les chevaliers du Duc de leur visite. Théodore se fit de nouveau attraper par les chevaliers du Duc et la sorcière retourne dans sa tour au côté des autres, de nouveau remise en captivité. ",
@@ -307,11 +340,11 @@
             },
             {
                 "text":"refuser l’aide et rester en cellule",
-                "nextText":"34"
+                "nextText":" "
             },
             {
                 "text":"ne rien faire ",
-                "nextText":"34"
+                "nextText":" "
             }
         ]
 },
@@ -355,11 +388,11 @@
             },
             {
                 "text":"essayer de le raisonner",
-                "nextText":"56"
+                "nextText":" "
             },
             {
                 "text":"se laisser mourir",
-                "nextText":"57"
+                "nextText":" "
             }
         ]
 },
@@ -446,387 +479,9 @@
     	],
 		"image":"/images/34.jpg",
 		"debloque":"finA"
-},
-{
-        "id": "35",
-        "text":"vous argumentez mais vos paroles sont vaines. Par chance vous arrivez à vous échapper de votre cellule mais le château est vaste. Au détour d’un couloir plonger dans la pénombre, vous apercevez une ombre blanche. ",
-        "choix": [
-            {
-                "text":"Suivant",
-                "nextText":"36"
-            }
-        ],
-        "image":"/images/.jpg"
-},
-{
-        "id": "36",
-        "text":"Vos yeux sont attirés par le mouvement mais la peur vous envahit quand votre main transperce ce qui semble être un fantôme. Vous voulez crier, mais aucun son ne sort de votre bouche. ",
-        "choix": [
-            {
-                "text":"Suivant",
-                "nextText":"37"
-            }
-        ],
-        "image":"/images/.jpg"
-},
-{
-        "id": "37",
-        "text":"Une voix étrange ne cesse de bourdonner dans votre tête, vous demandant de la suivre. Mais que faire ? ",
-        "choix": [
-            {
-                "text":"La suivre",
-                "nextText":"38"
-            },
-            {
-                "text":"L'ignorer",
-                "nextText":"34"
-            }
-        ],
-        "image":"/images/.jpg"
-},
-{
-        "id": "38",
-        "text":"Vous suivez la silhouette à travers les couloirs et elle vous amène à un passage secret. ",
-        "choix": [
-            {
-                "text":"se rendre chez vos parents",
-                "nextText":"6"
-            },
-            {
-                "text":"Se rendre dans la forêt",
-                "nextText":"39"
-            },
-            {
-                "text":"se cacher dans le château du duc ",
-                "nextText":"34"
-            }
-        ],
-        "image":"/images/.jpg"
-},
-{
-        "id": "39",
-        "text":" vous fuyez dans la forêt en semant les chevaliers du duc. Vous êtes perdu dans la forêt et devant vous le chemin se sépare en deux. À gauche le chemin mène vers le cœur de la forêt, à droite la brume envahit tout et on ne voit rien. ",
-        "choix": [
-            {
-                "text":"À droite",
-                "nextText":"58"
-            },
-            {
-                "text":"À gauche",
-                "nextText":"40"
-            }
-        ],
-        "image":"/images/.jpg"
-},
-{
-        "id": "40",
-        "text":"vous avancez sur le chemin et devant vous se tiens une femme vêtue de vêtements étranges. Vous sentez une aura émaner d’elle comme si elle n’appartenait pas à ce monde. Vôtre instinct vous dit qu’elle peut vous aider.  ",
-        "choix": [
-            {
-                "text":"Suivant",
-                "nextText":"41"
-            }
-        ],
-        "image":"/images/.jpg"
-},
-{
-        "id": "41",
-        "text":"Elle vous fixe et voit dans vos yeux la peur, la rage, la tristesse ainsi que la marque du traitre sur votre bras. Elle n’essaie pas d’en savoir plus et part dans la direction opposer. Vous la suivez. ",
-        "choix": [
-            {
-                "text":"Suivant",
-                "nextText":"42"
-            }
-        ],
-        "image":"/images/.jpg"
-},
-{
-        "id": "42",
-        "text":"Elle se retourne de temps en temps pour voir si vous la suiviez toujours. Quelques minutes plus tard, vous arrivez devant une cabane qui semble être sa maison. Elle entre dans la maison et ferme la porte. ",
-        "choix": [
-            {
-                "text":"Attendre",
-                "nextText":"43"
-            },
-            {
-                "text":"Partir",
-                "nextText":"34"
-            }
-        ],
-        "image":"/images/.jpg"
-},
-{
-        "id": "43",
-        "text":"Vous ne savez pas pourquoi vous attentez mais vous savez que vous devez rester avec cette étrange femme qui n’a pas été surpris et effrayer par votre arrivé dans cette forêt. Après de longues heures d’attente, elle ouvre la porte et vous demande la raison pour laquelle vous attendez devant sa maison.",
-        "choix": [
-            {
-                "text":"Je ne sais pas ",
-                "nextText":""
-            },
-            {
-                "text": "J’ai besoin de votre aide",
-                "nextText":"8"
-            },
-            {
-                "text":"La menace de vous aider ",
-                "nextText":"44"
-            }
-        ],
-        "image":"/images/.jpg"
-},
-{
-        "id": "44",
-        "text":"L’étrange femme s’énerve et vous jette un sort. Une lumière vous éblouis et vous vous sentez voler. Après la disparition de cette lumière, vous ouvrez les yeux et vous voyez cette étrange femme. Avant d’avoir eu le temps de la questionner sur ce qui vient de se passer, elle se précipite vers vous et vous demande si tout allait bien. Vous la fixer en étant stupéfait. Elle vous conduit sans sa maison et vous sert à du thé tout en vous posant des questions.		",
-        "choix": [
-            {
-                "text":"Suivant",
-                "nextText":"45"
-            }
-        ],
-        "image":"/images/.jpg"
-},
-{
-        "id": "45",
-        "text":"La femme étrange : « Théodore, que faite-vous là ? Je ne pensais pas vous revoir surtout après ce qui s’est passé… »	",
-        "choix": [
-            {
-                "text":"Suivant",
-                "nextText":"46"
-            }
-        ],
-        "image":"/images/.jpg"
-},
-{
-        "id": "46",
-        "text":"  Vous : « … »	",
-        "choix": [
-            {
-                "text":"Suivant",
-                "nextText":"47"
-            }
-        ],
-        "image":"/images/.jpg"
-},
-{
-        "id": "47",
-        "text":"La femme étrange : « Etes-vous blessé à la tete ? Vous ne parlez pas beaucoup… »",
-        "choix": [
-            {
-                "text":"Ne rien dire",
-                "nextText":"50"
-            },
-			{
-				"text":"Oui",
-				"nextText":"50"
-			},
-            {
-                "text":"Je ne m'en rappelle plus ",
-                "nextText":"48"
-            }
-        ],
-        "image":"/images/.jpg"
-},
-{
-        "id": "48",
-        "text":"La femme vous examine et vous questionne : « vous souvenez vous de suis-je ? » 	",
-        "choix": [
-            {
-                "text":"Oui",
-                "nextText":"52"
-            },
-            {
-                "text":"Non",
-                "nextText":"49"
-            }
-        ],
-        "image":"/images/.jpg"
-},
-{
-        "id": "49",
-        "text":"La femme étrange : « Ce n’est pas grave… Je m’appelle Roxanne De La Rose. On m’appelle aussi docteur De La Rose ou encore, la sorcière. Je suis vôtre alliée. Je suppose que vous ne vous souvenez pas non plus de ce qu’il s’est passé. Pour commencer, vous êtes le bras droit du duc François De Burger. Vous commandez son ordre de chevalerie. Un oracle a été annoncé dont vous êtes l’objet : Vous allez tuer un certain Pierre et de se rebeller contre le duc. Cet oracle s’est révélé vrai et tout au long, vous avez été aidé par un fantôme. ",
-        "choix": [
-            {
-                "text":"Qui est le fantôme?",
-                "nextText":"53"
-            },
-            {
-                "text":"Que s'est-il passé ensuite?",
-                "nextText":"54"
-            },
-            {
-                "text":"François...",
-                "nextText":"55"
-            }
-        ],
-        "image":"/images/.jpg"
-},
-{
-        "id": "50",
-        "text":"la femme se méfie de vous, et remarque la marque du traitre sur votre bras. Elle vous lance un sort et tout parait blanc, éblouissant. Vous vous sentez à nouveau voler. Lorsque vous rouvrez vos yeux, vous vous retrouvez devant cette étrange femme. Vous la saisissez du bras et la questionne sur ce qui s’est passé. Elle vous demande de la lâcher en vous menaçant : « Vous venez d’être transporter dans un monde parallèle, si vous ne voulez pas repartir, lâchez ma main. »",
-        "choix": [
-            {
-                "text":"La lâcher",
-                "nextText":"51"
-            },
-            {
-                "text":"Ne rien faire",
-                "nextText":"34"
-            }
-        ],
-        "image":"/images/.jpg"
-},
-{
-        "id": "51",
-        "text":"La femme vous fixe",
-        "choix": [
-            {
-                "text":"J’ai besoin de votre aide ",
-                "nextText":"8"
-            },
-            {
-                "text":"Partir",
-                "nextText":"34"
-            }
-        ],
-        "image":"/images/.jpg"
-},
-{
-        "id": "52",
-        "text":"La femme vous examine et ne trouve aucune blessure.",
-        "choix": [
-            {
-                "text":"Suivant",
-                "nextText":"50"
-            }
-        ],
-        "image":"/images/.jpg"
-},
-{
-        "id": "53",
-        "text":"C’est Catherine, la sorcière qui a réalisé l’oracle vous concernant. ",
-        "choix": [
-            {
-                "text":"Que s’est-il passé ensuite ?",
-                "nextText":"54"
-            },
-            {
-                "text":"François...",
-                "nextText":"55"
-            }
-        ],
-        "image":"/images/.jpg"
-},
-{
-        "id": "54",
-        "text":"Que s’est-il passé ensuite?",
-        "choix": [
-            {
-                "text":"Suivant",
-                "nextText":"50"
-            }
-        ],
-        "image":"/images/.jpg"
-},
-{
-        "id": "55",
-        "text":"Oui... c’est malheureux qu’il soit devenu fou.",
-        "choix": [
-            {
-                "text":"Que s’est-il passé ensuite ?",
-                "nextText":"54"
-            },
-            {
-                "text":"Qui est le fantôme?",
-                "nextText":"53"
-            }
-        ],
-        "image":"/images/.jpg"
-},
-{
-        "id": "56",
-        "text":" François ignore vos paroles et vous perce le cœur avec son épée. ",
-        "choix": [
-            {
-                "text":"Suivant",
-                "nextText":"57"
-            }
-        ],
-        "image":"/images/.jpg"
-},
-{
-        "id": "57",
-        "text":"Vous vous réveillez soudainement avec des sueurs froides. Il fait nuit noire. Ce n’était qu’un rêve, vous avez fait un mauvais cauchemar.... ",
-        "choix": [
-            {
-                "text":"Recommencer",
-                "nextText":"0"
-            },
-            {
-                "text":"",
-                "nextText":""
-            }
-        ],
-        "image":"/images/.jpg"
-},
-{
-        "id": "58",
-        "text":"vous avancez à travers la brume quand une silhouette apparaît de nouveau devant vous, elle semble vous guider jusqu’à une immense clairière. Devant vous se tiens une femme vêtue de vêtements étranges. ",
-        "choix": [
-            {
-                "text":"Suivant",
-                "nextText":"59"
-            }
-        ],
-        "image":"/images/.jpg"
-},
-{
-        "id": "59",
-        "text":"Elle ne vous regarde pas mais vous savez que cette femme est étrange, elle dégage quelque chose de surnaturel. Ses yeux vous transpercent comme si elle pouvait lire en vous comme d’un livre ouvert. ",
-        "choix": [
-            {
-                "text":"Suivant",
-                "nextText":"60"
-            }
-		],
-        "image":"/images/.jpg"
-},
-{
-        "id": "60",
-        "text":"Vous essayez de communiquer mais elle ne semble pas vous entendre. Elle ne bouge pas restant debout au milieu de la clairière mais vous n’êtes pas du même avis. Elle commence à parler d’’une voix sombre et forte : “Vous êtes celui qui sauvera ce monde d’une guerre, mais pour cela vous marcherez sur de nombreuses personnes.” ",
-        "choix": [
-            {
-                "text":"La mordre",
-                "nextText":"61"
-            },
-            {
-                "text":"L'écouter ",
-                "nextText":"62"
-            }
-        ],
-        "image":"/images/.jpg"
-},
-{
-        "id": "61",
-        "text":"êtes-vous un animal?",
-        "choix": [
-            {
-                "text":"Suivant",
-                "nextText":"62"
-            }
-        ],
-        "image":"/images/.jpg"
-},
-{
-        "id": "62",
-        "text":"Elle vous parle d’un avenir proche dans lequel vous pourrez vous vengez du duc ! Pour cela vous devez trouver des alliés. Alors que vous vous faites arrêter un homme vous sauve. C'est le chef de l’armée rebelle qui vous propose une collaboration.",
-        "choix": [
-            {
-                "text":"Suivant",
-                "nextText":"23"
-            }
-        ],
-        "image":"/images/.jpg"
 }
+
 ]
+
 
                                               
