@@ -1,4 +1,3 @@
-
 [
 {
 		"id": "0",
@@ -114,16 +113,12 @@
 	    "text":"Elle vous ouvre les yeux et pour la première fois depuis six années, vous doutez du système qui vous gouvernait depuis maintenant si longtemps. La seule personne qui pourrait vous innocenter, la seule personne de qui vous pourriez apprendre la réelle vérité, n’est autre que la personne qui vous a mis dans cette situation, soit la sorcière ayant fait la prédiction vous concernant. ",
         "choix": [
             {
-                "text":"Chercher Andréa",
-                "nextText":" "
-            },
-            {
                 "text":"Chercher Catherine",
                 "nextText":"9"
             },
 			{
                 "text":"Chercher le duc De Burger",
-                "nextText":" "
+                "nextText":"34"
             }
 
         ],
@@ -169,11 +164,11 @@
             },
             {
                 "text":"Se déguiser en domestique",
-                "nextText":" "
+                "nextText":"34"
             },
             {
                 "text":"se deguiser en marchant",
-                "nextText":" "
+                "nextText":"34"
             }
         ],
                 "image":"/images/11.jpg"
@@ -184,16 +179,8 @@
 	    "text":"Heureusement grâce au casque que portent chaque garde, vous réussissez à vous camoufler, avançant jusqu’à la tour où sont détenu les sorcières. Vous arrivez jusqu’à leur cellule et réussissez à trouver Catherine, la sorcière.  ",
         "choix": [
             {
-                "text":"Kidnapper la sorcière",
+                "text":"Suivant",
                 "nextText":"13"
-            },
-            {
-                "text":"Tuer la sorcière ",
-                "nextText":" "
-            },
-            {
-                "text":"Poser des questions à la sorcière ",
-                "nextText":" "
             }
         ]
 },
@@ -207,11 +194,7 @@
             },
             {
                 "text":"Se cache dans le château ",
-                "nextText":" "
-            },
-            {
-                "text":"",
-                "nextText":" "
+                "nextText":"34"
             }
         ]
 },
@@ -240,15 +223,7 @@
 	    "text":"Catherine vous cri d’arrêter, que vous ne devez pas le tuer mais vous êtes fou de rage, comment pouvez-vous pardonner l’homme qui a violé votre fiancée, celui qui a gâché vos vies, brisé votre avenir avec elle. Pourrez-vous changer votre destin. ",
         "choix": [
             {
-                "text":"Tuer Pierre",
-                "nextText":" "
-            },
-            {
-                "text":"Laisser Pierre partir",
-                "nextText":" "
-            },
-            {
-                "text":"Arrêter Pierre ",
+                "text":"Suivant",
                 "nextText":"17"
             }
         ]
@@ -263,11 +238,11 @@
             },
 			{
 				"text":"Effacer les preuves",
-				"nextText":" "
+				"nextText":"34"
 			},
 			{
 				"text":"Vérifier s'il est toujours vivant",
-				"nextText":" "
+				"nextText":"34"
 			}
 	    ]
 },
@@ -296,26 +271,11 @@
 		"text":"Maintenant que vous savez que votre fiancée a été victime d’un viol et qu’elle a été écartée par sa famille, vous la savez en danger et vous vous précipitez avec Catherine à la recherche de votre bien-aimée. Vous cherchez un endroit où sa famille aurait pu la cacher. Vous confrontez donc la famille de sa fiancée qui vous apprend leur plan macabre, éliminer leur fille, maintenant qu’elle n’est plus qu’une honte pour eux. ",
         "choix": [
             {
-                "text":"Chercher Andréa",
+                "text":"Suivant",
                 "nextText":"21"
-            },
-            {
-                "text":"Tuer la famille d'Andréa ",
-                "nextText":" "
-            },
-            {
-                "text":"Ignorer Andréa",
-                "nextText":" "
             }
         ]
 },
-
-
-
-
-
-
-
 {
         "id": "21",
         "text":"Théodore et Catherine partirent la chercher aussi vite qu’ils le purent mais la famille de la jeune femme fut plus rapide, et averti les chevaliers du Duc de leur visite. Théodore se fit de nouveau attraper par les chevaliers du Duc et la sorcière retourne dans sa tour au côté des autres, de nouveau remise en captivité. ",
@@ -346,11 +306,11 @@
             },
             {
                 "text":"refuser l’aide et rester en cellule",
-                "nextText":" "
+                "nextText":"34"
             },
             {
                 "text":"ne rien faire ",
-                "nextText":" "
+                "nextText":"34"
             }
         ]
 },
@@ -394,11 +354,11 @@
             },
             {
                 "text":"essayer de le raisonner",
-                "nextText":" "
+                "nextText":"56"
             },
             {
                 "text":"se laisser mourir",
-                "nextText":" "
+                "nextText":"57"
             }
         ]
 },
@@ -488,7 +448,7 @@
 },
 {
         "id": "35",
-        "text":"vous argumentez mais vos paroles sont vaines. Par chance vous arrivez à vous échapper de votre cellule mais le château est vaste. Au détour d’un couloir plonger dans la pénombre, vous apercevez une ombre blanche.",
+        "text":"vous argumentez mais vos paroles sont vaines. Par chance vous arrivez à vous échapper de votre cellule mais le château est vaste. Au détour d’un couloir plonger dans la pénombre, vous apercevez une ombre blanche. ",
         "choix": [
             {
                 "text":"Suivant",
@@ -548,7 +508,7 @@
         "choix": [
             {
                 "text":"À droite",
-                "nextText":""
+                "nextText":"58"
             },
             {
                 "text":"À gauche",
@@ -654,6 +614,10 @@
                 "text":"Ne rien dire",
                 "nextText":"50"
             },
+			{
+				"text":"Oui",
+				"nextText":"50"
+			},
             {
                 "text":"Je ne m'en rappelle plus ",
                 "nextText":"48"
@@ -667,7 +631,7 @@
         "choix": [
             {
                 "text":"Oui",
-                "nextText":"50"
+                "nextText":"52"
             },
             {
                 "text":"Non",
@@ -678,19 +642,19 @@
 },
 {
         "id": "49",
-        "text":"La femme étrange : « Ce n’est pas grave… Je m’appelle Roxanne De La Rose. On m’appelle aussi docteur De La Rose ou encore, la sorcière. Je suis vôtre alliée. Je suppose que vous ne vous souvenez pas non plus de ce qu’il s’est passé. Pour commencer, vous êtes le bras droit du duc François De Burger. Vous commandez son ordre de chevalerie. Un oracle a été annoncé dont vous êtes l’objet : Vous allez tuer un certain Pierre et de se rebeller contre le duc. ",
+        "text":"La femme étrange : « Ce n’est pas grave… Je m’appelle Roxanne De La Rose. On m’appelle aussi docteur De La Rose ou encore, la sorcière. Je suis vôtre alliée. Je suppose que vous ne vous souvenez pas non plus de ce qu’il s’est passé. Pour commencer, vous êtes le bras droit du duc François De Burger. Vous commandez son ordre de chevalerie. Un oracle a été annoncé dont vous êtes l’objet : Vous allez tuer un certain Pierre et de se rebeller contre le duc. Cet oracle s’est révélé vrai et tout au long, vous avez été aidé par un fantôme. ",
         "choix": [
             {
-                "text":"",
-                "nextText":""
+                "text":"Qui est le fantôme?",
+                "nextText":"53"
             },
             {
-                "text":"",
-                "nextText":""
+                "text":"Que s'est-il passé ensuite?",
+                "nextText":"54"
             },
             {
-                "text":"",
-                "nextText":""
+                "text":"François...",
+                "nextText":"55"
             }
         ],
         "image":"/images/.jpg"
@@ -700,16 +664,164 @@
         "text":"la femme se méfie de vous, et remarque la marque du traitre sur votre bras. Elle vous lance un sort et tout parait blanc, éblouissant. Vous vous sentez à nouveau voler. Lorsque vous rouvrez vos yeux, vous vous retrouvez devant cette étrange femme. Vous la saisissez du bras et la questionne sur ce qui s’est passé. Elle vous demande de la lâcher en vous menaçant : « Vous venez d’être transporter dans un monde parallèle, si vous ne voulez pas repartir, lâchez ma main. »",
         "choix": [
             {
-                "text":"",
-                "nextText":""
+                "text":"La lâcher",
+                "nextText":"51"
+            },
+            {
+                "text":"Ne rien faire",
+                "nextText":"34"
+            }
+        ],
+        "image":"/images/.jpg"
+},
+{
+        "id": "51",
+        "text":"La femme vous fixe",
+        "choix": [
+            {
+                "text":"J’ai besoin de votre aide ",
+                "nextText":"8"
+            },
+            {
+                "text":"Partir",
+                "nextText":"34"
+            }
+        ],
+        "image":"/images/.jpg"
+},
+{
+        "id": "52",
+        "text":"La femme vous examine et ne trouve aucune blessure.",
+        "choix": [
+            {
+                "text":"Suivant",
+                "nextText":"50"
+            }
+        ],
+        "image":"/images/.jpg"
+},
+{
+        "id": "53",
+        "text":"C’est Catherine, la sorcière qui a réalisé l’oracle vous concernant. ",
+        "choix": [
+            {
+                "text":"Que s’est-il passé ensuite ?",
+                "nextText":"54"
+            },
+            {
+                "text":"François...",
+                "nextText":"55"
+            }
+        ],
+        "image":"/images/.jpg"
+},
+{
+        "id": "54",
+        "text":"Que s’est-il passé ensuite?",
+        "choix": [
+            {
+                "text":"Suivant",
+                "nextText":"50"
+            }
+        ],
+        "image":"/images/.jpg"
+},
+{
+        "id": "55",
+        "text":"Oui... c’est malheureux qu’il soit devenu fou.",
+        "choix": [
+            {
+                "text":"Que s’est-il passé ensuite ?",
+                "nextText":"54"
+            },
+            {
+                "text":"Qui est le fantôme?",
+                "nextText":"53"
+            }
+        ],
+        "image":"/images/.jpg"
+},
+{
+        "id": "56",
+        "text":" François ignore vos paroles et vous perce le cœur avec son épée. ",
+        "choix": [
+            {
+                "text":"Suivant",
+                "nextText":"57"
+            }
+        ],
+        "image":"/images/.jpg"
+},
+{
+        "id": "57",
+        "text":"Vous vous réveillez soudainement avec des sueurs froides. Il fait nuit noire. Ce n’était qu’un rêve, vous avez fait un mauvais cauchemar.... ",
+        "choix": [
+            {
+                "text":"Recommencer",
+                "nextText":"0"
             },
             {
                 "text":"",
                 "nextText":""
+            }
+        ],
+        "image":"/images/.jpg"
+},
+{
+        "id": "58",
+        "text":"vous avancez à travers la brume quand une silhouette apparaît de nouveau devant vous, elle semble vous guider jusqu’à une immense clairière. Devant vous se tiens une femme vêtue de vêtements étranges. ",
+        "choix": [
+            {
+                "text":"Suivant",
+                "nextText":"59"
+            }
+        ],
+        "image":"/images/.jpg"
+},
+{
+        "id": "59",
+        "text":"Elle ne vous regarde pas mais vous savez que cette femme est étrange, elle dégage quelque chose de surnaturel. Ses yeux vous transpercent comme si elle pouvait lire en vous comme d’un livre ouvert. ",
+        "choix": [
+            {
+                "text":"Suivant",
+                "nextText":"60"
+            }
+		],
+        "image":"/images/.jpg"
+},
+{
+        "id": "60",
+        "text":"Vous essayez de communiquer mais elle ne semble pas vous entendre. Elle ne bouge pas restant debout au milieu de la clairière mais vous n’êtes pas du même avis. Elle commence à parler d’’une voix sombre et forte : “Vous êtes celui qui sauvera ce monde d’une guerre, mais pour cela vous marcherez sur de nombreuses personnes.” ",
+        "choix": [
+            {
+                "text":"La mordre",
+                "nextText":"61"
             },
             {
-                "text":"",
-                "nextText":""
+                "text":"L'écouter ",
+                "nextText":"62"
+            }
+        ],
+        "image":"/images/.jpg"
+},
+{
+        "id": "61",
+        "text":"êtes-vous un animal?",
+        "choix": [
+            {
+                "text":"Suivant",
+                "nextText":"62"
+            }
+        ],
+        "image":"/images/.jpg"
+},
+{
+        "id": "62",
+        "text":"Elle vous parle d’un avenir proche dans lequel vous pourrez vous vengez du duc ! Pour cela vous devez trouver des alliés. Alors que vous vous faites arrêter un homme vous sauve. C'est le chef de l’armée rebelle qui vous propose une collaboration.",
+        "choix": [
+            {
+                "text":"Suivant",
+                "nextText":"23"
             }
         ],
         "image":"/images/.jpg"
@@ -1283,236 +1395,22 @@
             }
         ],
         "image":"/images/.jpg"
+=======
+        ]
 },
 {
-        "id": "",
-        "text":"",
+        "id": "36",
+        "text":"Vous vous réveillez soudainement avec des sueurs froides. Il fait nuit noire. Ce n'était qu'un rêve, vous avez fait un mauvais cauchemar...",
         "choix": [
             {
-                "text":"",
-                "nextText":""
-            },
-            {
-                "text":"",
-                "nextText":""
-            },
-            {
-                "text":"",
-                "nextText":""
+                "text":"Recommencer",
+                "nextText":"0"
             }
-        ],
-        "image":"/images/.jpg"
-},
-{
-        "id": "",
-        "text":"",
-        "choix": [
-            {
-                "text":"",
-                "nextText":""
-            },
-            {
-                "text":"",
-                "nextText":""
-            },
-            {
-                "text":"",
-                "nextText":""
-            }
-        ],
-        "image":"/images/.jpg"
-},
-{
-        "id": "",
-        "text":"",
-        "choix": [
-            {
-                "text":"",
-                "nextText":""
-            },
-            {
-                "text":"",
-                "nextText":""
-            },
-            {
-                "text":"",
-                "nextText":""
-            }
-        ],
-        "image":"/images/.jpg"
-},
-{
-        "id": "",
-        "text":"",
-        "choix": [
-            {
-                "text":"",
-                "nextText":""
-            },
-            {
-                "text":"",
-                "nextText":""
-            },
-            {
-                "text":"",
-                "nextText":""
-            }
-        ],
-        "image":"/images/.jpg"
-},
-{
-        "id": "",
-        "text":"",
-        "choix": [
-            {
-                "text":"",
-                "nextText":""
-            },
-            {
-                "text":"",
-                "nextText":""
-            },
-            {
-                "text":"",
-                "nextText":""
-            }
-        ],
-        "image":"/images/.jpg"
-},
-{
-        "id": "",
-        "text":"",
-        "choix": [
-            {
-                "text":"",
-                "nextText":""
-            },
-            {
-                "text":"",
-                "nextText":""
-            },
-            {
-                "text":"",
-                "nextText":""
-            }
-        ],
-        "image":"/images/.jpg"
-},
-{
-        "id": "",
-        "text":"",
-        "choix": [
-            {
-                "text":"",
-                "nextText":""
-            },
-            {
-                "text":"",
-                "nextText":""
-            },
-            {
-                "text":"",
-                "nextText":""
-            }
-        ],
-        "image":"/images/.jpg"
-},
-{
-        "id": "",
-        "text":"",
-        "choix": [
-            {
-                "text":"",
-                "nextText":""
-            },
-            {
-                "text":"",
-                "nextText":""
-            },
-            {
-                "text":"",
-                "nextText":""
-            }
-        ],
-        "image":"/images/.jpg"
-},
-{
-        "id": "",
-        "text":"",
-        "choix": [
-            {
-                "text":"",
-                "nextText":""
-            },
-            {
-                "text":"",
-                "nextText":""
-            },
-            {
-                "text":"",
-                "nextText":""
-            }
-        ],
-        "image":"/images/.jpg"
-},
-{
-        "id": "",
-        "text":"",
-        "choix": [
-            {
-                "text":"",
-                "nextText":""
-            },
-            {
-                "text":"",
-                "nextText":""
-            },
-            {
-                "text":"",
-                "nextText":""
-            }
-        ],
-        "image":"/images/.jpg"
-},
-{
-        "id": "",
-        "text":"",
-        "choix": [
-            {
-                "text":"",
-                "nextText":""
-            },
-            {
-                "text":"",
-                "nextText":""
-            },
-            {
-                "text":"",
-                "nextText":""
-            }
-        ],
-        "image":"/images/.jpg"
-},
-{
-        "id": "",
-        "text":"",
-        "choix": [
-            {
-                "text":"",
-                "nextText":""
-            },
-            {
-                "text":"",
-                "nextText":""
-            },
-            {
-                "text":"",
-                "nextText":""
-            }
-        ],
-        "image":"/images/.jpg"
+    	],
+		"image":"",
+		"debloque":"finC"
+>>>>>>> 4bae5f1255d0aa32ca2cc50bdc156a950f204c5c
 }
 ]
-
 
                                               
