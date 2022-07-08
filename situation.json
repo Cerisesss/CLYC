@@ -183,6 +183,7 @@
                 "nextText":"13"
             }
         ]
+		"image":"/images/12.jpg"
 },
 {
         "id": "13",
@@ -1393,23 +1394,7 @@
                 "text":"",
                 "nextText":""
             }
-        ],
-        "image":"/images/.jpg"
-=======
         ]
-},
-{
-        "id": "36",
-        "text":"Vous vous réveillez soudainement avec des sueurs froides. Il fait nuit noire. Ce n'était qu'un rêve, vous avez fait un mauvais cauchemar...",
-        "choix": [
-            {
-                "text":"Recommencer",
-                "nextText":"0"
-            }
-    	],
-		"image":"",
-		"debloque":"finC"
->>>>>>> 4bae5f1255d0aa32ca2cc50bdc156a950f204c5c
 }
 ]
 
