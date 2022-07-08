@@ -60,7 +60,7 @@
                      },
 					 {
                         "text":"S'expliquer",
-                        "nextText":"",
+                        "nextText":"35",
 						"rationnel": true
                      }
                 ],
@@ -76,7 +76,7 @@
                      },
 					  {
                         "text":"Se rendre dans la fôret ",
-                        "nextText":" "
+                        "nextText":"39"
                      },
                      {
                         "text":"Se cacher dans le château ",
@@ -94,22 +94,24 @@
                         "text":"Suivant.",
                         "nextText":"7"
                     }
-                ]
+                ],
+				"image":"/images/6.jpg"
 },
 {
         "id" : "7",
-		"text":"C'est alors que vous entendez parler d’une femme étrange, une sorcière dit-on. Une femme folle qui se ferait appeler Docteur De la Rose. On dit que cette femme étrange aurait été impliqué avec le Duc De Burger autrefois. À la recherche de cette étrange femme, vous parcourez mont et tempête et alors que vous êtes à bout de souffle, perdu dans une forêt, vous apercevez une petite cabane, isolé au milieu d’une petite clairière entouré de la forêt. ",
+		"text":"C'est alors que vous entendez parler d’une femme étrange, une sorcière dit-on. Une femme folle qui se ferait appeler Docteur De la Rose. On dit que cette femme étrange aurait été impliqué avec le Duc De Burger autrefois. À la recherche de cette étrange femme, vous parcourez mont et tempête et alors que vous êtes à bout de souffle, perdu dans une forêt, vous apercevez une petite cabane, isolé au milieu d’une petite clairière entouré de la forêt. Devant vous apparaît une étrange vieille femme et vous savez en un regard qu’elle est celle que vous cherchez. ",
         "choix":[
                      {
                         "text":"Suivant",
                         "nextText":"8"
                      }
-                ]
+                ],
+                "image":"/images/7.jpg"
 },
 {
 		
         "id": "8",
-	    "text":"Devant vous apparaît une étrange vieille femme et vous savez en un regard qu’elle est celle que vous cherchez. Elle vous ouvre les yeux et pour la première fois depuis six années, vous doutez du système qui vous gouvernait depuis maintenant si longtemps. La seule personne qui pourrait vous innocenter, la seule personne de qui vous pourriez apprendre la réelle vérité, n’est autre que la personne qui vous a mis dans cette situation, soit la sorcière ayant fait la prédiction vous concernant. ",
+	    "text":"Elle vous ouvre les yeux et pour la première fois depuis six années, vous doutez du système qui vous gouvernait depuis maintenant si longtemps. La seule personne qui pourrait vous innocenter, la seule personne de qui vous pourriez apprendre la réelle vérité, n’est autre que la personne qui vous a mis dans cette situation, soit la sorcière ayant fait la prédiction vous concernant. ",
         "choix": [
             {
                 "text":"Chercher Andréa",
@@ -124,7 +126,8 @@
                 "nextText":" "
             }
 
-        ]
+        ],
+                "image":"/images/7.jpg"
 },
 {
         "id": "9",
@@ -132,7 +135,7 @@
         "choix": [
             {
                 "text":"Camouflouer la marque avec les vetements ",
-                "nextText":" "
+                "nextText":"34"
             },
             {
                 "text":"Camouflouer la marque en la brulant pour la faire disparaître",
@@ -140,9 +143,10 @@
             },
 			{
                 "text":"Ne rien faire",
-                "nextText":" "
+                "nextText":"34"
             }
-        ]
+        ],
+                "image":"/images/9.jpg"
 },
 {
 		"id": "10",
@@ -152,7 +156,8 @@
                 "text":"Suivant",
                 "nextText":"11"
             }
-        ]
+        ],
+                "image":"/images/9.jpg"
 },
 {
 		"id": "11",
@@ -170,7 +175,8 @@
                 "text":"se deguiser en marchant",
                 "nextText":" "
             }
-        ]
+        ],
+                "image":"/images/11.jpg"
 },
 
 {
@@ -479,8 +485,1033 @@
     	],
 		"image":"/images/34.jpg",
 		"debloque":"finA"
+},
+{
+        "id": "35",
+        "text":"vous argumentez mais vos paroles sont vaines. Par chance vous arrivez à vous échapper de votre cellule mais le château est vaste. Au détour d’un couloir plonger dans la pénombre, vous apercevez une ombre blanche.",
+        "choix": [
+            {
+                "text":"Suivant",
+                "nextText":"36"
+            }
+        ],
+        "image":"/images/.jpg"
+},
+{
+        "id": "36",
+        "text":"Vos yeux sont attirés par le mouvement mais la peur vous envahit quand votre main transperce ce qui semble être un fantôme. Vous voulez crier, mais aucun son ne sort de votre bouche. ",
+        "choix": [
+            {
+                "text":"Suivant",
+                "nextText":"37"
+            }
+        ],
+        "image":"/images/.jpg"
+},
+{
+        "id": "37",
+        "text":"Une voix étrange ne cesse de bourdonner dans votre tête, vous demandant de la suivre. Mais que faire ? ",
+        "choix": [
+            {
+                "text":"La suivre",
+                "nextText":"38"
+            },
+            {
+                "text":"L'ignorer",
+                "nextText":"34"
+            }
+        ],
+        "image":"/images/.jpg"
+},
+{
+        "id": "38",
+        "text":"Vous suivez la silhouette à travers les couloirs et elle vous amène à un passage secret. ",
+        "choix": [
+            {
+                "text":"se rendre chez vos parents",
+                "nextText":"6"
+            },
+            {
+                "text":"Se rendre dans la forêt",
+                "nextText":"39"
+            },
+            {
+                "text":"se cacher dans le château du duc ",
+                "nextText":"34"
+            }
+        ],
+        "image":"/images/.jpg"
+},
+{
+        "id": "39",
+        "text":" vous fuyez dans la forêt en semant les chevaliers du duc. Vous êtes perdu dans la forêt et devant vous le chemin se sépare en deux. À gauche le chemin mène vers le cœur de la forêt, à droite la brume envahit tout et on ne voit rien. ",
+        "choix": [
+            {
+                "text":"À droite",
+                "nextText":""
+            },
+            {
+                "text":"À gauche",
+                "nextText":"40"
+            }
+        ],
+        "image":"/images/.jpg"
+},
+{
+        "id": "40",
+        "text":"vous avancez sur le chemin et devant vous se tiens une femme vêtue de vêtements étranges. Vous sentez une aura émaner d’elle comme si elle n’appartenait pas à ce monde. Vôtre instinct vous dit qu’elle peut vous aider.  ",
+        "choix": [
+            {
+                "text":"Suivant",
+                "nextText":"41"
+            }
+        ],
+        "image":"/images/.jpg"
+},
+{
+        "id": "41",
+        "text":"Elle vous fixe et voit dans vos yeux la peur, la rage, la tristesse ainsi que la marque du traitre sur votre bras. Elle n’essaie pas d’en savoir plus et part dans la direction opposer. Vous la suivez. ",
+        "choix": [
+            {
+                "text":"Suivant",
+                "nextText":"42"
+            }
+        ],
+        "image":"/images/.jpg"
+},
+{
+        "id": "42",
+        "text":"Elle se retourne de temps en temps pour voir si vous la suiviez toujours. Quelques minutes plus tard, vous arrivez devant une cabane qui semble être sa maison. Elle entre dans la maison et ferme la porte. ",
+        "choix": [
+            {
+                "text":"Attendre",
+                "nextText":"43"
+            },
+            {
+                "text":"Partir",
+                "nextText":"34"
+            }
+        ],
+        "image":"/images/.jpg"
+},
+{
+        "id": "43",
+        "text":"Vous ne savez pas pourquoi vous attentez mais vous savez que vous devez rester avec cette étrange femme qui n’a pas été surpris et effrayer par votre arrivé dans cette forêt. Après de longues heures d’attente, elle ouvre la porte et vous demande la raison pour laquelle vous attendez devant sa maison.",
+        "choix": [
+            {
+                "text":"Je ne sais pas ",
+                "nextText":""
+            },
+            {
+                "text": "J’ai besoin de votre aide",
+                "nextText":"8"
+            },
+            {
+                "text":"La menace de vous aider ",
+                "nextText":"44"
+            }
+        ],
+        "image":"/images/.jpg"
+},
+{
+        "id": "44",
+        "text":"L’étrange femme s’énerve et vous jette un sort. Une lumière vous éblouis et vous vous sentez voler. Après la disparition de cette lumière, vous ouvrez les yeux et vous voyez cette étrange femme. Avant d’avoir eu le temps de la questionner sur ce qui vient de se passer, elle se précipite vers vous et vous demande si tout allait bien. Vous la fixer en étant stupéfait. Elle vous conduit sans sa maison et vous sert à du thé tout en vous posant des questions.		",
+        "choix": [
+            {
+                "text":"Suivant",
+                "nextText":"45"
+            }
+        ],
+        "image":"/images/.jpg"
+},
+{
+        "id": "45",
+        "text":"La femme étrange : « Théodore, que faite-vous là ? Je ne pensais pas vous revoir surtout après ce qui s’est passé… »	",
+        "choix": [
+            {
+                "text":"Suivant",
+                "nextText":"46"
+            }
+        ],
+        "image":"/images/.jpg"
+},
+{
+        "id": "46",
+        "text":"  Vous : « … »	",
+        "choix": [
+            {
+                "text":"Suivant",
+                "nextText":"47"
+            }
+        ],
+        "image":"/images/.jpg"
+},
+{
+        "id": "47",
+        "text":"La femme étrange : « Etes-vous blessé à la tete ? Vous ne parlez pas beaucoup… »",
+        "choix": [
+            {
+                "text":"Ne rien dire",
+                "nextText":"50"
+            },
+            {
+                "text":"Je ne m'en rappelle plus ",
+                "nextText":"48"
+            }
+        ],
+        "image":"/images/.jpg"
+},
+{
+        "id": "48",
+        "text":"La femme vous examine et vous questionne : « vous souvenez vous de suis-je ? » 	",
+        "choix": [
+            {
+                "text":"Oui",
+                "nextText":"50"
+            },
+            {
+                "text":"Non",
+                "nextText":"49"
+            }
+        ],
+        "image":"/images/.jpg"
+},
+{
+        "id": "49",
+        "text":"La femme étrange : « Ce n’est pas grave… Je m’appelle Roxanne De La Rose. On m’appelle aussi docteur De La Rose ou encore, la sorcière. Je suis vôtre alliée. Je suppose que vous ne vous souvenez pas non plus de ce qu’il s’est passé. Pour commencer, vous êtes le bras droit du duc François De Burger. Vous commandez son ordre de chevalerie. Un oracle a été annoncé dont vous êtes l’objet : Vous allez tuer un certain Pierre et de se rebeller contre le duc. ",
+        "choix": [
+            {
+                "text":"",
+                "nextText":""
+            },
+            {
+                "text":"",
+                "nextText":""
+            },
+            {
+                "text":"",
+                "nextText":""
+            }
+        ],
+        "image":"/images/.jpg"
+},
+{
+        "id": "50",
+        "text":"la femme se méfie de vous, et remarque la marque du traitre sur votre bras. Elle vous lance un sort et tout parait blanc, éblouissant. Vous vous sentez à nouveau voler. Lorsque vous rouvrez vos yeux, vous vous retrouvez devant cette étrange femme. Vous la saisissez du bras et la questionne sur ce qui s’est passé. Elle vous demande de la lâcher en vous menaçant : « Vous venez d’être transporter dans un monde parallèle, si vous ne voulez pas repartir, lâchez ma main. »",
+        "choix": [
+            {
+                "text":"",
+                "nextText":""
+            },
+            {
+                "text":"",
+                "nextText":""
+            },
+            {
+                "text":"",
+                "nextText":""
+            }
+        ],
+        "image":"/images/.jpg"
+},
+{
+        "id": "",
+        "text":"",
+        "choix": [
+            {
+                "text":"",
+                "nextText":""
+            },
+            {
+                "text":"",
+                "nextText":""
+            },
+            {
+                "text":"",
+                "nextText":""
+            }
+        ],
+        "image":"/images/.jpg"
+},
+{
+        "id": "",
+        "text":"",
+        "choix": [
+            {
+                "text":"",
+                "nextText":""
+            },
+            {
+                "text":"",
+                "nextText":""
+            },
+            {
+                "text":"",
+                "nextText":""
+            }
+        ],
+        "image":"/images/.jpg"
+},
+{
+        "id": "",
+        "text":"",
+        "choix": [
+            {
+                "text":"",
+                "nextText":""
+            },
+            {
+                "text":"",
+                "nextText":""
+            },
+            {
+                "text":"",
+                "nextText":""
+            }
+        ],
+        "image":"/images/.jpg"
+},
+{
+        "id": "",
+        "text":"",
+        "choix": [
+            {
+                "text":"",
+                "nextText":""
+            },
+            {
+                "text":"",
+                "nextText":""
+            },
+            {
+                "text":"",
+                "nextText":""
+            }
+        ],
+        "image":"/images/.jpg"
+},
+{
+        "id": "",
+        "text":"",
+        "choix": [
+            {
+                "text":"",
+                "nextText":""
+            },
+            {
+                "text":"",
+                "nextText":""
+            },
+            {
+                "text":"",
+                "nextText":""
+            }
+        ],
+        "image":"/images/.jpg"
+},
+{
+        "id": "",
+        "text":"",
+        "choix": [
+            {
+                "text":"",
+                "nextText":""
+            },
+            {
+                "text":"",
+                "nextText":""
+            },
+            {
+                "text":"",
+                "nextText":""
+            }
+        ],
+        "image":"/images/.jpg"
+},
+{
+        "id": "",
+        "text":"",
+        "choix": [
+            {
+                "text":"",
+                "nextText":""
+            },
+            {
+                "text":"",
+                "nextText":""
+            },
+            {
+                "text":"",
+                "nextText":""
+            }
+        ],
+        "image":"/images/.jpg"
+},
+{
+        "id": "",
+        "text":"",
+        "choix": [
+            {
+                "text":"",
+                "nextText":""
+            },
+            {
+                "text":"",
+                "nextText":""
+            },
+            {
+                "text":"",
+                "nextText":""
+            }
+        ],
+        "image":"/images/.jpg"
+},
+{
+        "id": "",
+        "text":"",
+        "choix": [
+            {
+                "text":"",
+                "nextText":""
+            },
+            {
+                "text":"",
+                "nextText":""
+            },
+            {
+                "text":"",
+                "nextText":""
+            }
+        ],
+        "image":"/images/.jpg"
+},
+{
+        "id": "",
+        "text":"",
+        "choix": [
+            {
+                "text":"",
+                "nextText":""
+            },
+            {
+                "text":"",
+                "nextText":""
+            },
+            {
+                "text":"",
+                "nextText":""
+            }
+        ],
+        "image":"/images/.jpg"
+},
+{
+        "id": "",
+        "text":"",
+        "choix": [
+            {
+                "text":"",
+                "nextText":""
+            },
+            {
+                "text":"",
+                "nextText":""
+            },
+            {
+                "text":"",
+                "nextText":""
+            }
+        ],
+        "image":"/images/.jpg"
+},
+{
+        "id": "",
+        "text":"",
+        "choix": [
+            {
+                "text":"",
+                "nextText":""
+            },
+            {
+                "text":"",
+                "nextText":""
+            },
+            {
+                "text":"",
+                "nextText":""
+            }
+        ],
+        "image":"/images/.jpg"
+},
+{
+        "id": "",
+        "text":"",
+        "choix": [
+            {
+                "text":"",
+                "nextText":""
+            },
+            {
+                "text":"",
+                "nextText":""
+            },
+            {
+                "text":"",
+                "nextText":""
+            }
+        ],
+        "image":"/images/.jpg"
+},
+{
+        "id": "",
+        "text":"",
+        "choix": [
+            {
+                "text":"",
+                "nextText":""
+            },
+            {
+                "text":"",
+                "nextText":""
+            },
+            {
+                "text":"",
+                "nextText":""
+            }
+        ],
+        "image":"/images/.jpg"
+},
+{
+        "id": "",
+        "text":"",
+        "choix": [
+            {
+                "text":"",
+                "nextText":""
+            },
+            {
+                "text":"",
+                "nextText":""
+            },
+            {
+                "text":"",
+                "nextText":""
+            }
+        ],
+        "image":"/images/.jpg"
+},
+{
+        "id": "",
+        "text":"",
+        "choix": [
+            {
+                "text":"",
+                "nextText":""
+            },
+            {
+                "text":"",
+                "nextText":""
+            },
+            {
+                "text":"",
+                "nextText":""
+            }
+        ],
+        "image":"/images/.jpg"
+},
+{
+        "id": "",
+        "text":"",
+        "choix": [
+            {
+                "text":"",
+                "nextText":""
+            },
+            {
+                "text":"",
+                "nextText":""
+            },
+            {
+                "text":"",
+                "nextText":""
+            }
+        ],
+        "image":"/images/.jpg"
+},
+{
+        "id": "",
+        "text":"",
+        "choix": [
+            {
+                "text":"",
+                "nextText":""
+            },
+            {
+                "text":"",
+                "nextText":""
+            },
+            {
+                "text":"",
+                "nextText":""
+            }
+        ],
+        "image":"/images/.jpg"
+},
+{
+        "id": "",
+        "text":"",
+        "choix": [
+            {
+                "text":"",
+                "nextText":""
+            },
+            {
+                "text":"",
+                "nextText":""
+            },
+            {
+                "text":"",
+                "nextText":""
+            }
+        ],
+        "image":"/images/.jpg"
+},
+{
+        "id": "",
+        "text":"",
+        "choix": [
+            {
+                "text":"",
+                "nextText":""
+            },
+            {
+                "text":"",
+                "nextText":""
+            },
+            {
+                "text":"",
+                "nextText":""
+            }
+        ],
+        "image":"/images/.jpg"
+},
+{
+        "id": "",
+        "text":"",
+        "choix": [
+            {
+                "text":"",
+                "nextText":""
+            },
+            {
+                "text":"",
+                "nextText":""
+            },
+            {
+                "text":"",
+                "nextText":""
+            }
+        ],
+        "image":"/images/.jpg"
+},
+{
+        "id": "",
+        "text":"",
+        "choix": [
+            {
+                "text":"",
+                "nextText":""
+            },
+            {
+                "text":"",
+                "nextText":""
+            },
+            {
+                "text":"",
+                "nextText":""
+            }
+        ],
+        "image":"/images/.jpg"
+},
+{
+        "id": "",
+        "text":"",
+        "choix": [
+            {
+                "text":"",
+                "nextText":""
+            },
+            {
+                "text":"",
+                "nextText":""
+            },
+            {
+                "text":"",
+                "nextText":""
+            }
+        ],
+        "image":"/images/.jpg"
+},
+{
+        "id": "",
+        "text":"",
+        "choix": [
+            {
+                "text":"",
+                "nextText":""
+            },
+            {
+                "text":"",
+                "nextText":""
+            },
+            {
+                "text":"",
+                "nextText":""
+            }
+        ],
+        "image":"/images/.jpg"
+},
+{
+        "id": "",
+        "text":"",
+        "choix": [
+            {
+                "text":"",
+                "nextText":""
+            },
+            {
+                "text":"",
+                "nextText":""
+            },
+            {
+                "text":"",
+                "nextText":""
+            }
+        ],
+        "image":"/images/.jpg"
+},
+{
+        "id": "",
+        "text":"",
+        "choix": [
+            {
+                "text":"",
+                "nextText":""
+            },
+            {
+                "text":"",
+                "nextText":""
+            },
+            {
+                "text":"",
+                "nextText":""
+            }
+        ],
+        "image":"/images/.jpg"
+},
+{
+        "id": "",
+        "text":"",
+        "choix": [
+            {
+                "text":"",
+                "nextText":""
+            },
+            {
+                "text":"",
+                "nextText":""
+            },
+            {
+                "text":"",
+                "nextText":""
+            }
+        ],
+        "image":"/images/.jpg"
+},
+{
+        "id": "",
+        "text":"",
+        "choix": [
+            {
+                "text":"",
+                "nextText":""
+            },
+            {
+                "text":"",
+                "nextText":""
+            },
+            {
+                "text":"",
+                "nextText":""
+            }
+        ],
+        "image":"/images/.jpg"
+},
+{
+        "id": "",
+        "text":"",
+        "choix": [
+            {
+                "text":"",
+                "nextText":""
+            },
+            {
+                "text":"",
+                "nextText":""
+            },
+            {
+                "text":"",
+                "nextText":""
+            }
+        ],
+        "image":"/images/.jpg"
+},
+{
+        "id": "",
+        "text":"",
+        "choix": [
+            {
+                "text":"",
+                "nextText":""
+            },
+            {
+                "text":"",
+                "nextText":""
+            },
+            {
+                "text":"",
+                "nextText":""
+            }
+        ],
+        "image":"/images/.jpg"
+},
+{
+        "id": "",
+        "text":"",
+        "choix": [
+            {
+                "text":"",
+                "nextText":""
+            },
+            {
+                "text":"",
+                "nextText":""
+            },
+            {
+                "text":"",
+                "nextText":""
+            }
+        ],
+        "image":"/images/.jpg"
+},
+{
+        "id": "",
+        "text":"",
+        "choix": [
+            {
+                "text":"",
+                "nextText":""
+            },
+            {
+                "text":"",
+                "nextText":""
+            },
+            {
+                "text":"",
+                "nextText":""
+            }
+        ],
+        "image":"/images/.jpg"
+},
+{
+        "id": "",
+        "text":"",
+        "choix": [
+            {
+                "text":"",
+                "nextText":""
+            },
+            {
+                "text":"",
+                "nextText":""
+            },
+            {
+                "text":"",
+                "nextText":""
+            }
+        ],
+        "image":"/images/.jpg"
+},
+{
+        "id": "",
+        "text":"",
+        "choix": [
+            {
+                "text":"",
+                "nextText":""
+            },
+            {
+                "text":"",
+                "nextText":""
+            },
+            {
+                "text":"",
+                "nextText":""
+            }
+        ],
+        "image":"/images/.jpg"
+},
+{
+        "id": "",
+        "text":"",
+        "choix": [
+            {
+                "text":"",
+                "nextText":""
+            },
+            {
+                "text":"",
+                "nextText":""
+            },
+            {
+                "text":"",
+                "nextText":""
+            }
+        ],
+        "image":"/images/.jpg"
+},
+{
+        "id": "",
+        "text":"",
+        "choix": [
+            {
+                "text":"",
+                "nextText":""
+            },
+            {
+                "text":"",
+                "nextText":""
+            },
+            {
+                "text":"",
+                "nextText":""
+            }
+        ],
+        "image":"/images/.jpg"
+},
+{
+        "id": "",
+        "text":"",
+        "choix": [
+            {
+                "text":"",
+                "nextText":""
+            },
+            {
+                "text":"",
+                "nextText":""
+            },
+            {
+                "text":"",
+                "nextText":""
+            }
+        ],
+        "image":"/images/.jpg"
+},
+{
+        "id": "",
+        "text":"",
+        "choix": [
+            {
+                "text":"",
+                "nextText":""
+            },
+            {
+                "text":"",
+                "nextText":""
+            },
+            {
+                "text":"",
+                "nextText":""
+            }
+        ],
+        "image":"/images/.jpg"
+},
+{
+        "id": "",
+        "text":"",
+        "choix": [
+            {
+                "text":"",
+                "nextText":""
+            },
+            {
+                "text":"",
+                "nextText":""
+            },
+            {
+                "text":"",
+                "nextText":""
+            }
+        ],
+        "image":"/images/.jpg"
+},
+{
+        "id": "",
+        "text":"",
+        "choix": [
+            {
+                "text":"",
+                "nextText":""
+            },
+            {
+                "text":"",
+                "nextText":""
+            },
+            {
+                "text":"",
+                "nextText":""
+            }
+        ],
+        "image":"/images/.jpg"
+},
+{
+        "id": "",
+        "text":"",
+        "choix": [
+            {
+                "text":"",
+                "nextText":""
+            },
+            {
+                "text":"",
+                "nextText":""
+            },
+            {
+                "text":"",
+                "nextText":""
+            }
+        ],
+        "image":"/images/.jpg"
+},
+{
+        "id": "",
+        "text":"",
+        "choix": [
+            {
+                "text":"",
+                "nextText":""
+            },
+            {
+                "text":"",
+                "nextText":""
+            },
+            {
+                "text":"",
+                "nextText":""
+            }
+        ],
+        "image":"/images/.jpg"
 }
-
 ]
 
 
